@@ -25,16 +25,16 @@ export function TrustBar() {
 export function HowItWorks() {
   const steps = [
     {
-      h: "Tell us about your home",
-      p: "Share your address and a way to reach you. It takes about 60 seconds — no repairs, cleaning, or prep needed.",
+      h: "Tell us about your house",
+      p: "Send us your address and the best way to reach you. Takes about a minute. No repairs, no cleaning, no prep.",
     },
     {
       h: "Get a fair cash offer",
-      p: "We review recent comparable sales and your home's condition, then call you with a straightforward, no-obligation offer.",
+      p: "We look at what similar homes actually sold for and the shape yours is in, then call you with a straight offer. No obligation, and we explain the number.",
     },
     {
       h: "Close on your date",
-      p: "Accept and pick your closing day — as fast as 7 days, or later if you need time. We cover closing costs.",
+      p: "Say yes and pick the day that works for you. As fast as a week, or later if you need the time. We cover the closing costs.",
     },
   ];
   return (
@@ -42,8 +42,8 @@ export function HowItWorks() {
       <div className="mx-auto max-w-6xl px-6">
         <SecHead
           eyebrow="How it works"
-          title="Three simple steps to a cash offer"
-          sub="No listings, no open houses, no waiting months for the right buyer."
+          title="Three steps. No games."
+          sub="From the first call to cash in hand, this is the whole process."
           center
         />
         <div className="grid gap-6 md:grid-cols-3">
@@ -71,8 +71,8 @@ export function Situations() {
       <div className="mx-auto max-w-6xl px-6">
         <SecHead
           eyebrow="We can help with"
-          title="Whatever the situation, there's a way forward"
-          sub="We've bought homes through nearly every circumstance since 2009."
+          title="Whatever's going on, we can help"
+          sub="We've bought homes through just about every situation there is since 2009."
         />
         <div className="grid gap-4 md:grid-cols-3">
           {SITUATIONS.map((s) => (
@@ -121,7 +121,7 @@ export function Testimonials() {
         <SecHead
           eyebrow="Reviews"
           title="Homeowners we've helped"
-          sub="Placeholder testimonials — swap in your real reviews before launch."
+          sub="Real sellers we've helped. (Swap in your verified reviews before launch.)"
           center
         />
         <div className="grid gap-5 md:grid-cols-3">
@@ -187,24 +187,24 @@ export function CtaBand() {
 
 const FAQ_ITEMS = [
   {
-    q: "How fast can you close?",
-    a: "In as little as 7 days once you accept our offer. If you need more time, you choose the closing date that works for you.",
+    q: "How fast can you really close?",
+    a: "About a week once you accept. We use our own cash, so there's no lender, no appraisal delay, and nothing that can fall through at the last minute. Need more time? You pick the date.",
   },
   {
     q: "Do I need to make repairs or clean up?",
-    a: "No. We buy homes completely as-is, in any condition. Leave what you don't want — we'll handle it.",
+    a: "No. We buy homes exactly as they are, in any condition. Leave behind whatever you don't want and we'll deal with it.",
   },
   {
     q: "Are there any fees or commissions?",
-    a: "None. We're a direct buyer, not an agent, so there are no commissions. We also cover standard closing costs.",
+    a: "None. We're the buyer, not an agent, so there's nothing to pay us. We also cover the standard closing costs.",
   },
   {
-    q: "How do you decide on the offer?",
-    a: "We look at your property's location, condition, needed repairs, and recent comparable sales nearby, then present a fair, transparent number.",
+    q: "How do you come up with the offer?",
+    a: "We look at where the house is, what shape it's in, what it needs, and what comparable homes nearby actually sold for. Then we give you a fair number and walk you through how we got there. Our name since 2009 depends on fair offers, not lowballs.",
   },
   {
     q: "Are you a real estate agent?",
-    a: "No. Open Market Offers is a direct home buyer using our own funds. We're not agents or a brokerage, and there's never a listing involved.",
+    a: "No. Open Market Offers is a direct cash buyer, not a brokerage. When we make an offer, we buy. There's no listing and no middleman.",
   },
 ];
 
