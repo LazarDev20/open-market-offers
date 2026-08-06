@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import LeadForm from "@/components/LeadForm";
 import {
@@ -20,17 +21,18 @@ export default function Home() {
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-3 py-1.5 text-[13px] font-semibold text-ink-soft shadow-sm">
               <span className="h-2 w-2 rounded-full bg-teal ring-4 ring-teal/20" />
-              Buying SoCal homes since 2009 · 15+ years
+              Buying SoCal homes since 2009
             </span>
             <h1 className="mt-5 font-display text-4xl leading-[1.05] sm:text-5xl md:text-6xl">
-              Sell your home fast.
+              Sell your house fast.
               <br />
-              <em className="not-italic text-teal">Cash offer now.</em>
+              <em className="not-italic text-teal">We close in days, not months.</em>
             </h1>
             <p className="mt-4 max-w-md text-lg text-ink-soft">
-              Skip the repairs, showings, and agent commissions. Tell us about
-              your Southern California property and get a fair, no-obligation
-              cash offer — you pick the closing date.
+              No repairs, no showings, no waiting around for a buyer whose loan
+              might fall through. Tell us about your Southern California house and
+              get a fair cash offer with a closing date you choose. We&rsquo;ve been
+              buying homes here, as they are, since 2009.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
@@ -47,7 +49,7 @@ export default function Home() {
               </Link>
             </div>
             <ul className="mt-7 flex flex-wrap gap-x-6 gap-y-2.5">
-              {["No fees or commissions", "We buy as-is", "Close in as little as 7 days"].map(
+              {["No fees or commissions", "We buy as-is", "Close in about 7 days"].map(
                 (t) => (
                   <li key={t} className="flex items-center gap-2 text-[14.5px] font-semibold">
                     <span className="grid h-5 w-5 place-items-center rounded-full bg-teal/10 text-xs text-teal">
