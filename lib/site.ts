@@ -4,7 +4,14 @@
 
 export const SITE = {
   name: "Open Market Offers",
-  tagline: "Sell your house fast for cash",
+  tagline: "A fair cash offer, or list for more",
+  // Licensed partner for the optional listing service.
+  // Confirm exact wording/label with the broker before publishing.
+  agent: {
+    name: "Nathan Bernal",
+    brokerage: "Condor Real Estate",
+    license: "DRE# 01408342",
+  },
   since: 2009,
   region: "Southern California",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://openmarketoffers.com",
@@ -48,6 +55,7 @@ export const SITUATIONS: {
       "No cleanout and no repairs. Take what you want and leave the rest",
       "We know how probate works and can move at the court's pace",
       "One fair cash offer, and we handle everything after closing",
+      "Rather list it? We can do that too if it nets the estate more",
     ],
   },
   {
@@ -108,6 +116,7 @@ export const SITUATIONS: {
       "Truly any condition. We deal with all of it after closing",
       "No repairs, no cleaning, nothing to prep",
       "A fair number based on real comps, not a lowball",
+      "Prefer to list instead? Our licensed partner can handle that",
     ],
   },
 ];
