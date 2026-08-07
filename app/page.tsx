@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import LeadForm from "@/components/LeadForm";
 import {
@@ -32,7 +31,8 @@ export default function Home() {
               No repairs, no showings, no waiting around for a buyer whose loan
               might fall through. Tell us about your Southern California house and
               get a fair cash offer with a closing date you choose. We&rsquo;ve been
-              buying homes here, as they are, since 2009.
+              buying homes here, as they are, since 2009. And if listing would put
+              more in your pocket, we&rsquo;ll tell you that too.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
