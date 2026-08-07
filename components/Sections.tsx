@@ -29,8 +29,8 @@ export function HowItWorks() {
       p: "Send us your address and the best way to reach you. Takes about a minute. No repairs, no cleaning, no prep.",
     },
     {
-      h: "Get a fair cash offer",
-      p: "We look at what similar homes actually sold for and the shape yours is in, then call you with a straight offer. No obligation, and we explain the number.",
+      h: "Get your offer, or a plan",
+      p: "We look at what similar homes actually sold for and the shape yours is in, then call you with a straight cash offer. If listing would net you more, we'll tell you honestly and show you both ways.",
     },
     {
       h: "Close on your date",
@@ -199,12 +199,12 @@ const FAQ_ITEMS = [
     a: "None. We're the buyer, not an agent, so there's nothing to pay us. We also cover the standard closing costs.",
   },
   {
-    q: "How do you come up with the offer?",
-    a: "We look at where the house is, what shape it's in, what it needs, and what comparable homes nearby actually sold for. Then we give you a fair number and walk you through how we got there. Our name since 2009 depends on fair offers, not lowballs.",
+    q: "What if the cash offer is too low for me?",
+    a: "Then listing might be the better move, and we'll say so. Our licensed partner can put your home on the market to reach more buyers. We'd rather point you to the option that gets you the most, cash or listed, than push a number that doesn't work for you.",
   },
   {
     q: "Are you a real estate agent?",
-    a: "No. Open Market Offers is a direct cash buyer, not a brokerage. When we make an offer, we buy. There's no listing and no middleman.",
+    a: "Open Market Offers buys houses directly for cash. We're the buyer, not an agent. If you'd rather list your home on the market, our licensed partner can handle that for you, so you get the best of both options in one call.",
   },
 ];
 
