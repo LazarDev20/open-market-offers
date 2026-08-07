@@ -48,8 +48,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-6 text-[12.5px] leading-relaxed text-[#7d97a0]">
-          {SITE.name} is a direct real estate home buyer (principal) and is not
-          a licensed real estate agent or brokerage. We do not provide legal,
+          {SITE.name} is a direct real estate home buyer (principal). We buy
+          houses for cash and are not acting as your real estate agent when we do.
+          Optional listing services are provided by {SITE.agent.name},{" "}
+          {SITE.agent.brokerage}, {SITE.agent.license}. We do not provide legal,
           tax, or financial advice; please consult a qualified professional
           regarding your specific situation. All offers are non-binding until a
           written purchase agreement is signed.
