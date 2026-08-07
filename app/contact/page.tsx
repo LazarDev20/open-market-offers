@@ -3,7 +3,7 @@ import LeadForm from "@/components/LeadForm";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Get Your Cash Offer",
+  title: "Contact Us | Get Your Cash Offer",
   description:
     "Contact Open Market Offers for a fast, no-obligation cash offer on your Southern California home. Call us or request an offer online.",
 };
