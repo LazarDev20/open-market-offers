@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { HowItWorks, TrustBar, CtaBand, Faq, FaqJsonLd } from "@/components/Sections";
 
 export const metadata: Metadata = {
-  title: "How It Works — Sell Your Home for Cash in 3 Steps",
+  title: "How It Works | Sell Your Home for Cash in 3 Steps",
   description:
     "See how selling your Southern California home to Open Market Offers works: tell us about your home, get a fair cash offer, and close on your timeline.",
 };
