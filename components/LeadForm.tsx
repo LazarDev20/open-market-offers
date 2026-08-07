@@ -91,7 +91,7 @@ export default function LeadForm({
         <div className="mx-auto mb-4 grid h-14 w-14 place-items-center rounded-full bg-teal/10 text-3xl text-teal">
           ✓
         </div>
-        <h3 className="font-display text-2xl text-teal">We got it — thank you!</h3>
+        <h3 className="font-display text-2xl text-teal">We got it. Thank you!</h3>
         <p className="mx-auto mt-2 max-w-sm text-sm text-ink-soft">
           A member of our team will call you shortly to walk through your
           options. No pressure, no obligation.
