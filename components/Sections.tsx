@@ -94,48 +94,62 @@ export function Situations() {
   );
 }
 
-export function Testimonials() {
+export function Testimonials({ hideHeader = false }: { hideHeader?: boolean } = {}) {
   const quotes = [
     {
-      q: "They made an offer within a day and we closed in under two weeks. After my dad passed, dealing with the house was the last thing I had energy for. This was a relief.",
-      n: "Maria R.",
+      q: "We inherited a property after losing our parents, and the thought of cleaning it out and listing it traditionally felt overwhelming. They gave us a fair off-market offer right from the start, the highest price compared to other cash buyers, and working with them felt entirely trustworthy. The ease of the sale was incredible during such an emotional time for our family.",
+      n: "Tina K.",
+      l: "Orange, CA",
+      i: "TK",
+    },
+    {
+      q: "Living out of state with a house that needed a massive amount of work was a huge stressor. They stepped in with a straightforward off-market offer that saved us countless cross-country trips, at the highest price and with zero pressure. Best of all, there was no re-negotiation once we went under contract. We closed quickly and handled everything remotely through a professional escrow and title company.",
+      n: "Jordan B.",
+      l: "Fullerton, CA",
+      i: "JB",
+    },
+    {
+      q: "Dealing with sick loved ones who could no longer take care of their dilapidated home left us exhausted. We needed a private solution, so we called a few off-market buyers. Open Market Offers gave us the highest offer and a fast close, which is all we needed to walk away. Even though a few issues came up before closing, they still honored their price with no renegotiation.",
+      n: "Tommy G.",
       l: "Santa Ana, CA",
-      i: "MR",
+      i: "TG",
     },
     {
-      q: "Fair, straightforward, and no games. I'd been a landlord for 20 years and was ready to be done. They took it as-is, tenants and all.",
-      n: "David T.",
-      l: "Long Beach, CA",
-      i: "DT",
-    },
-    {
-      q: "We were facing foreclosure and thought we had no options. They moved fast and we walked away with cash in hand. Genuinely grateful.",
-      n: "Jasmine L.",
+      q: "As tired landlords dealing with tenants who wouldn't pay rent, we were at our wit's end trying to offload the property. They provided a lifeline with a clean off-market offer. We experienced absolute peace of mind with no negotiation, no inspection hassles, and no showings. Thank you for your honesty.",
+      n: "Lisa & John T.",
       l: "Anaheim, CA",
-      i: "JL",
+      i: "LJ",
+    },
+    {
+      q: "Our family home was severely distressed, with a leaking roof, clogged drains, and uneven floors. We wanted to sell off-market and not deal with all the disclosures and headaches of a traditional sale. They came through with a realistic off-market offer and did everything they said they would within the time frame they quoted. We were very happy with the experience.",
+      n: "Isaac J.",
+      l: "Tustin, CA",
+      i: "IJ",
     },
   ];
   return (
     <section id="reviews" className="py-20">
       <div className="mx-auto max-w-6xl px-6">
-        <SecHead
-          eyebrow="Reviews"
-          title="Homeowners we've helped"
-          sub="Real sellers we've helped. (Swap in your verified reviews before launch.)"
-          center
-        />
-        <div className="grid gap-5 md:grid-cols-3">
+        {!hideHeader && (
+          <SecHead
+            eyebrow="Reviews"
+            title="Homeowners we've helped"
+            sub="Real sellers, in their own words."
+            center
+          />
+        )}
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {quotes.map((c, i) => (
             <div
               key={i}
-              className="rounded-xl border border-line bg-white p-6 shadow-sm"
+              className="flex flex-col rounded-xl border border-line bg-white p-6 shadow-sm"
             >
               <div className="mb-3 tracking-widest text-amber">★★★★★</div>
-              <p className="mb-4 font-display text-[15px] leading-snug text-ink">
+              <p className="mb-4 flex-1 font-display text-[15px] leading-snug text-ink">
                 &ldquo;{c.q}&rdquo;
               </p>
               <div className="flex items-center gap-3">
-                <span className="grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-teal to-ink text-sm font-bold text-white">
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-gradient-to-br from-teal to-ink text-sm font-bold text-white">
                   {c.i}
                 </span>
                 <span>
