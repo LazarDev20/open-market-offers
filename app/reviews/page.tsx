@@ -10,16 +10,16 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <section className="bg-gradient-to-b from-mist to-white py-16">
+      <section className="bg-gradient-to-b from-mist to-white pt-16 pb-4">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h1 className="font-display text-4xl sm:text-5xl">Homeowner reviews</h1>
           <p className="mt-4 text-lg text-ink-soft">
-            Real stories from people we&rsquo;ve helped. (Placeholders for now. Swap in
-            your verified reviews.)
+            Real stories from homeowners we&rsquo;ve helped sell across Southern
+            California since 2009.
           </p>
         </div>
       </section>
-      <Testimonials />
+      <Testimonials hideHeader />
       <CtaBand />
     </>
   );
