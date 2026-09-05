@@ -35,7 +35,7 @@ export default function Page() {
     Email us
   </div>
   
-    href="mailto:info@openmarketoffers.com"
+    <ahref="mailto:info@openmarketoffers.com"
     className="font-display text-2xl text-ink"
   >
     info@openmarketoffers.com
