@@ -39,6 +39,7 @@ export default function Footer() {
           <FootCol title="Contact">
             <FLink href={`tel:${SITE.phoneE164}`}>{SITE.phone}</FLink>
             <FLink href="/#quote">Get an Offer</FLink>
+            <FLink href="mailto:info@openmarketoffers.com">info@openmarketoffers.com</FLink>
             {SITE.calendly ? (
               <FLink href={SITE.calendly}>Book a Call</FLink>
             ) : (
