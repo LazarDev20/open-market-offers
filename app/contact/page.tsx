@@ -30,6 +30,17 @@ export default function Page() {
                 {SITE.phone}
               </a>
             </div>
+            <div>
+  <div className="text-[12.5px] font-semibold uppercase tracking-wider text-teal">
+    Email us
+  </div>
+  
+    href="mailto:info@openmarketoffers.com"
+    className="font-display text-2xl text-ink"
+  >
+    info@openmarketoffers.com
+  </a>
+</div>
             {SITE.calendly && (
               <div>
                 <div className="text-[12.5px] font-semibold uppercase tracking-wider text-teal">
