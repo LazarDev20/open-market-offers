@@ -39,6 +39,16 @@ const posts = [
       "The asking price is not the same as what you actually walk away with. Most Southern California sellers don't learn this until it's too late. Here's how to calculate your real net number before you sign anything.",
     featured: false,
   },
+    {
+    slug: "tired-landlord-socal",
+    tag: "Tired Landlords",
+    date: "September 14, 2026",
+    readTime: "8 min read",
+    title: "Done Being a Landlord? What Southern California Rental Property Owners Need to Know Before Selling",
+    excerpt:
+      "You can sell your SoCal rental with tenants in place — but you can't just tell them to leave. Here's what the law actually requires, what the tax bill looks like, and your real options for getting out.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
