@@ -114,6 +114,60 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "tired-landlord-socal": {
+    tag: "Tired Landlords",
+    date: "September 14, 2026",
+    readTime: "8 min read",
+    title: "Done Being a Landlord? What Southern California Rental Property Owners Need to Know Before Selling",
+    intro:
+      "If you own a rental property in Southern California and you're thinking about selling, this covers what you actually need to know — the tenant laws, the tax exposure, and your real options.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>If you own a rental property in Southern California and you're thinking about selling, this article covers what you actually need to know — the tenant laws, the tax exposure, and your real options. No generalizations.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">You can sell with a tenant in place — but you can't just tell them to leave</h2>
+        <p>California law allows you to sell a rental property with tenants still living there. The lease automatically transfers to the new buyer, who becomes the new landlord and must honor the existing agreement.</p>
+        <p>What catches most landlords off guard: under AB 1482, the state's Tenant Protection Act, "intent to sell" is not a recognized just cause for eviction. You cannot terminate a tenancy simply because you want to sell.</p>
+        <p>For month-to-month tenants, the buyer can eventually end the tenancy, but California law requires proper notice — 30 days if the tenant has lived there less than a year, or 60 days if more than a year. For fixed-term leases, tenants are entitled to stay until the lease expires, even after the property changes hands.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The AB 1482 question every SoCal landlord needs to answer</h2>
+        <p>AB 1482 limits annual rent increases to 5% plus the applicable regional Consumer Price Index, up to a maximum of 10% in any 12-month period. For the 2025–26 period, the allowed increase is 7.7%.</p>
+        <p>Most single-family homes and condos are exempt from these rules if they aren't owned by a corporation or REIT — provided you gave the tenant the required legal notice when they moved in. The single-family exemption is not automatic. You must have given the required written notice to your tenant at the start of tenancy or within 90 days of the law applying to the tenancy. If you didn't, your property may be treated as covered regardless of its type.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The relocation payment requirement</h2>
+        <p>If you are terminating a tenancy for a no-fault reason — including owner move-in — California requires relocation assistance equal to one month of the tenant's rent, paid within 15 calendar days of serving the termination notice, or written confirmation that no rent is due for the last month. This is not optional and is not negotiable. Factor it into your exit math before you make any decisions.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Selling occupied vs. vacant — the real numbers</h2>
+        <p>For a $700,000 rental property, a traditional vacant sale — after tenant exit, turn costs of $5,000–$15,000, four to six months of vacancy carrying costs, and a 6% commission — nets roughly $628,000–$645,000 with a realistic timeline of seven to ten months.</p>
+        <p>A cash sale of the same property occupied, at a 10% discount to the vacant comparable, nets roughly $592,000 and closes in 30 to 60 days. The occupied cash sale nets less on paper — but eliminates months of vacancy carrying costs, tenant coordination risk, and the uncertainty of a traditional escrow.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The tax exposure most landlords underestimate</h2>
+        <p>California taxes capital gains on rental property sales as ordinary income. There is no separate state capital gains rate and no holding-period discount. A property held two years and a property held twenty years face the same California rate — from 1% up to 13.3%, with a 1% surcharge pushing the effective top rate to 13.3% for incomes above $1 million.</p>
+        <p>Combined with federal long-term capital gains rates of 0%, 15%, or 20%, and the 3.8% Net Investment Income Tax, effective combined rates can exceed 35%. Depreciation recapture adds another layer — the IRS taxes all depreciation claimed during ownership at up to 25%, and California then taxes that recaptured depreciation as ordinary income at your applicable state rate. Run these numbers with a CPA before you list.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The 1031 exchange option</h2>
+        <p>If your goal is to exit this property but keep the capital working, a 1031 exchange defers your capital gains tax by rolling proceeds into a qualifying replacement property. Four requirements must be met without exception: identify the replacement property within 45 days of closing, close on the replacement within 180 days, reinvest all net proceeds, and use a qualified intermediary to hold funds between transactions. Missing either deadline cancels the exchange entirely with no extensions.</p>
+        <p>One rule that catches California investors off guard: if the replacement property is located outside California, the state still tracks the original deferred gain under Revenue and Taxation Code Section 18032. When that out-of-state property eventually sells, California collects its portion — even if you've relocated to another state years earlier.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Your practical options as a SoCal landlord looking to exit</h2>
+        <p><strong className="font-medium text-gray-900">Sell occupied to a cash buyer.</strong> Fastest path. No vacancy period, no turn costs, no showings. You close on a timeline you choose. The trade-off is price — expect a discount to vacant market value.</p>
+        <p><strong className="font-medium text-gray-900">Negotiate a tenant buyout.</strong> Offer the tenant a lump sum to vacate voluntarily. This is legal, common, and often faster than a formal notice process. Consult an attorney on an appropriate figure for your situation.</p>
+        <p><strong className="font-medium text-gray-900">Wait for the lease to expire, then sell vacant.</strong> Maximum sale price, maximum timeline. Factor in months of carrying costs and the risk that market conditions change before you close.</p>
+        <p><strong className="font-medium text-gray-900">Sell with a licensed agent.</strong> If your property is vacant or the tenant is cooperative, listing on the open market can maximize your return. Your agent needs specific experience with tenant-occupied sales in California.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We work with SoCal landlords in all of these situations.</h4>
+          <p className="text-gray-600 text-sm mb-4">We can make a direct cash offer on your rental as-is, with or without tenants, or help you evaluate what listing on the open market would realistically net you. We give you both numbers honestly so you can make the decision that fits your situation. No obligation, no pressure.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. California landlord-tenant law is complex and changes frequently. Consult a licensed California attorney and CPA before making any decisions about selling rental property. Open Market Offers is a licensed California real estate brokerage.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
