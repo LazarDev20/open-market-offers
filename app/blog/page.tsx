@@ -49,6 +49,16 @@ const posts = [
       "You can sell your SoCal rental with tenants in place — but you can't just tell them to leave. Here's what the law actually requires, what the tax bill looks like, and your real options for getting out.",
     featured: false,
   },
+    {
+    slug: "how-to-stop-foreclosure-socal",
+    tag: "Foreclosure",
+    date: "September 15, 2026",
+    readTime: "7 min read",
+    title: "How to Stop Foreclosure in Southern California — Your Real Options in 2026",
+    excerpt:
+      "If you've received a Notice of Default on your Southern California home, the clock is ticking. Here's exactly where you are in the process and what you can actually do about it.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
