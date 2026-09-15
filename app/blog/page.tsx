@@ -59,6 +59,16 @@ const posts = [
       "If you've received a Notice of Default on your Southern California home, the clock is ticking. Here's exactly where you are in the process and what you can actually do about it.",
     featured: false,
   },
+    {
+    slug: "selling-california-property-out-of-state",
+    tag: "Out-of-State Owners",
+    date: "September 15, 2026",
+    readTime: "6 min read",
+    title: "Selling Your California Property From Out of State: What You Need to Know in 2026",
+    excerpt:
+      "You do not need to fly out or be present at any point. But California will still tax the gain regardless of where you live now, and several rules catch out-of-state owners off guard.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
