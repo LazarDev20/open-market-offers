@@ -264,6 +264,56 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "selling-home-unpermitted-work-socal": {
+    tag: "Seller Tips",
+    date: "September 15, 2026",
+    readTime: "7 min read",
+    title: "Selling a Home With Unpermitted Work in Southern California: What You Need to Know in 2026",
+    intro:
+      "Unpermitted work is more common in Southern California than most sellers expect. Sellers discover it at the worst possible time: during a buyer's inspection, after the appraiser flags a discrepancy, or when escrow is about to close.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Unpermitted work is more common in Southern California than most sellers expect. Drive through any established neighborhood in the Inland Empire, Orange County, or Los Angeles and you will find garage conversions turned into bedrooms, patio covers enclosed into living rooms, room additions built onto the back of tract homes, and ADUs constructed without a building permit. Sellers discover this at the worst possible time: during a buyer's inspection, after the appraiser flags a discrepancy, or when escrow is about to close.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What qualifies as unpermitted work</h2>
+        <p>In California, a building permit is required any time construction affects the structure or essential systems of a home, regardless of who did the work or when it was completed. Common examples include garage conversions, room additions, ADU construction, electrical panel upgrades, plumbing reroutes, HVAC installations, patio enclosures, new bathrooms, and converted carports. This applies even if the work was done by a previous owner years before you purchased the property.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">You are required to disclose it</h2>
+        <p>There are no exceptions to this. California Civil Code Section 1102 requires sellers of one to four unit residential properties to complete a Transfer Disclosure Statement that includes a direct question about additions, alterations, and repairs made without permits. You answer based on your actual knowledge, including work done by prior owners if you know about it.</p>
+        <p>Selling as-is does not change this. An as-is sale limits your repair obligations, not your disclosure obligations. These are two separate things. Knowingly failing to disclose unpermitted work is considered fraud under California law. In 2024, a California Court of Appeal decision held a seller liable for $63,000 in damages, not because the unpermitted bathroom addition was unsafe, but because the buyer had to obtain retroactive permits, pay penalty fees, and bring the work up to current code at significant cost.</p>
+        <p>On the TDS, mark the relevant question yes and describe specifically what was done without permits, when it was done if you know, and who did the work if known. Vague disclosures do not protect you. Disclose before the appraisal is ordered. Once the appraiser flags unpermitted work in the report, the lender will typically condition loan approval on resolution, which can kill the deal or force a price reduction at a critical point in escrow.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">AB 968: The extra layer for recent owners</h2>
+        <p>If you purchased the property within the last 18 months and are now selling, California Civil Code Section 1102.6h, added by AB 968 and effective July 1, 2024, requires additional disclosure. You must disclose all work performed by a contractor since you took title, including contractor names, contact information for contracts over $500, and copies of any permits pulled. This applies regardless of whether the work was permitted or not. Consult a California real estate attorney before listing if this applies to you.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What unpermitted work does to your sale</h2>
+        <p>The financial impact shows up in three places.</p>
+        <p><strong className="font-medium text-gray-900">Appraisal.</strong> Appraisers typically do not count unpermitted square footage toward the official market value. On a $900,000 home in Los Angeles, a 400 square foot unpermitted addition that gets excluded from the appraisal could mean a $100,000 or more reduction in appraised value. If the buyer is financing, the loan amount is based on the appraised value, not the purchase price.</p>
+        <p><strong className="font-medium text-gray-900">Financing.</strong> Conventional lenders, FHA lenders, and VA lenders may refuse to approve a loan on a property with health or safety issues tied to unpermitted work. This significantly narrows your buyer pool to cash buyers or portfolio lenders who are comfortable with the condition.</p>
+        <p><strong className="font-medium text-gray-900">Price.</strong> On the open market, the discount for unpermitted work typically runs 10 to 20 percent below comparable permitted homes. Cash investors typically demand 30 to 40 percent below market, plus a risk premium, to account for the cost and uncertainty of legalization.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Your three options as a seller</h2>
+        <p><strong className="font-medium text-gray-900">Retroactive permitting.</strong> Hire a licensed contractor to pull permits, have the work inspected, and bring it up to current code before selling. This is the most straightforward path to a full buyer pool and full market value. The cost depends heavily on what was done and when. Work completed decades ago may require costly upgrades to meet 2026 standards before a final inspection can be passed. Retroactive permitting typically costs between $10,000 and $50,000 or more depending on the scope and jurisdiction.</p>
+        <p><strong className="font-medium text-gray-900">Disclose and sell on the open market with adjusted pricing.</strong> Disclose the unpermitted work accurately on all required forms, price the property to reflect the condition, and market to buyers who are comfortable taking it on. Your buyer pool will be smaller, but this avoids the time and expense of retroactive permitting. The discount off full market value is typically 10 to 20 percent.</p>
+        <p><strong className="font-medium text-gray-900">Sell as-is to a cash buyer.</strong> A cash buyer accepts the property in its current condition, unpermitted work included. This eliminates the appraisal problem, the lender problem, and the buyer pool problem. Cash buyers typically offer 30 to 40 percent below the market value of a fully permitted comparable home.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The one thing most sellers get wrong</h2>
+        <p>The most common mistake is waiting until a buyer's inspector or the appraiser surfaces the unpermitted work. Sellers who identify and disclose unpermitted work upfront control the narrative, attract buyers who are already aware of the condition, and avoid the shock renegotiation that kills deals in escrow.</p>
+        <p>If you are not sure what is permitted on your property, pull the building permit history from your county assessor or building department before you list. In Los Angeles County you can search at ladbs.org. In Orange County, search the county building permit portal. Comparing the permit history to what you see in the home tells you exactly what needs to be disclosed.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We buy homes with unpermitted work regularly.</h4>
+          <p className="text-gray-600 text-sm mb-4">Any condition, any situation, with or without tenants. We can also help you evaluate what listing on the open market would realistically net after accounting for the condition. We give you both numbers honestly and let you decide.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California real estate law and local permit requirements are complex and vary by jurisdiction. Consult a licensed California real estate attorney regarding your specific situation. Open Market Offers is a licensed California real estate brokerage.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
