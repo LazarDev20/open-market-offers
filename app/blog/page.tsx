@@ -79,6 +79,16 @@ const posts = [
       "Unpermitted work surfaces at the worst possible time. Here is what California law requires you to disclose, what it does to your sale price, and your three real options as a seller.",
     featured: false,
   },
+    {
+    slug: "is-now-a-good-time-to-sell-southern-california",
+    tag: "Market Update",
+    date: "September 15, 2026",
+    readTime: "6 min read",
+    title: "Is Now a Good Time to Sell My Home in Southern California?",
+    excerpt:
+      "The California median home price sits at $904,640, inventory is down 3.5 percent year over year, and homes are selling at 99.64 percent of list price. Here is what the data actually shows for sellers right now.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
