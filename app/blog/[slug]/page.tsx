@@ -214,6 +214,56 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "selling-california-property-out-of-state": {
+    tag: "Out-of-State Owners",
+    date: "September 15, 2026",
+    readTime: "6 min read",
+    title: "Selling Your California Property From Out of State: What You Need to Know in 2026",
+    intro:
+      "If you own property in Southern California but live somewhere else, selling it is more manageable than most people expect. What you need is a clear understanding of California's specific rules for nonresident sellers, because several of them catch out-of-state owners off guard.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>The entire transaction can be handled remotely under California Civil Code 1633.1, which allows electronic signatures on real estate contracts. You do not need to fly out, attend a signing, or be physically present at any point.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">California will tax the gain regardless of where you live</h2>
+        <p>Moving out of California does not end your California tax exposure on property you still own in the state. California taxes capital gains as ordinary income at rates up to 13.3 percent, and that tax applies to all real property located in California regardless of the seller's state of residence. If you moved to Texas, Nevada, or Florida to avoid California income tax, that strategy works for income you earn after you move. It does not eliminate California's claim on the gain from selling California real estate.</p>
+        <p>For a married couple selling a rental property purchased for $800,000 in 2016 for $2.8 million in 2026, the total tax exposure, federal and California combined, can approach 37 percent on the gain. This number surprises most out-of-state sellers who assume they left California's tax system behind when they moved.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The 3.33 percent withholding rule</h2>
+        <p>California requires withholding of 3.33 percent of the total sale price on most home sales by nonresident sellers. This withholding is handled through Form 593, filed by escrow at closing. The withheld amount is a prepayment of state income tax, not an extra tax. It gets credited back when you file your California nonresident tax return for the year of the sale.</p>
+        <p>The standard Form 593 calculation is based on the full sale price, not your taxable gain. On a $900,000 sale, the standard withholding would be $29,970 held by escrow at closing. You can elect an alternative withholding calculation based on your estimated taxable gain rather than the full sale price. For 2026, the alternative method uses a rate of 12.3 percent against the estimated gain. For properties with a high sale price and a high adjusted basis, this election can significantly reduce the amount withheld at closing. Review this with a CPA before escrow closes.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">If you previously lived in the property</h2>
+        <p>A former primary residence may still qualify for the Section 121 home sale exclusion after the owner moves away, up to $250,000 for single filers and $500,000 for married couples filing jointly. You must have owned the property for at least two of the five years before the sale, and used it as your primary residence for at least two of those five years. The two-year periods do not need to be consecutive.</p>
+        <p>If you moved out more than three years ago, or if the property has been used as a rental since you left, you likely do not qualify for the full exclusion. Any period of rental use after January 1, 2009 reduces the exclusion proportionally. Consult a CPA before listing if you have any rental history on the property.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Selling with a tenant in place</h2>
+        <p>Many out-of-state owners rent their California properties and face the question of whether to sell occupied or vacant. California law fully allows the sale of a tenant-occupied rental. The existing lease transfers to the new buyer, who becomes the new landlord. The tenant retains all rights under the lease and applicable just-cause protections under AB 1482.</p>
+        <p>Selling to a cash buyer typically eliminates the need to manage tenant communication, showings, and inspection access from a distance. For landlords who live several states away, this simplicity often outweighs the potential price premium of a vacant listing.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">How the process actually works remotely</h2>
+        <p>Every step of the California sale can be completed without physical presence. Listing agreements, disclosures, purchase contracts, and escrow instructions are all signed electronically. California's electronic signature law specifically covers real estate transactions.</p>
+        <p>If you list on the open market, you need someone on the ground to manage access, inspections, and contractor coordination. Cash sales simplify this further. You review the offer, sign remotely, choose your closing date, and receive funds by wire. There are no showings, no inspections to manage, and no contractor calls.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The 1031 exchange warning for out-of-state sellers</h2>
+        <p>If you have a 1031 exchange in mind and the replacement property is outside California, the state requires annual filing of Form FTB 3840 to track the deferred gain. When the out-of-state replacement property eventually sells, California collects its portion of the original deferred gain even if you have been out of the state for years. Missing the annual filing can trigger an assessment of the full deferred tax.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What to do before you list or accept any offer</h2>
+        <p>Talk to a CPA who handles multi-state returns before you make any decisions. Understanding your actual liability, withholding options, and whether you qualify for any exclusion before the transaction closes gives you options. After the transaction closes, the options largely disappear.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We handle out-of-state sales regularly.</h4>
+          <p className="text-gray-600 text-sm mb-4">We work with property owners throughout the country who own Southern California real estate and need to sell without being here. Cash offer, listing, or just pointing you in the right direction, we handle everything remotely and respond to every inquiry personally.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. California tax law is complex and fact-specific. Consult a licensed California CPA or tax attorney before making any decisions about selling your California property. Open Market Offers is a licensed California real estate brokerage.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
