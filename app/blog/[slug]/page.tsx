@@ -168,6 +168,52 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "how-to-stop-foreclosure-socal": {
+    tag: "Foreclosure",
+    date: "September 15, 2026",
+    readTime: "7 min read",
+    title: "How to Stop Foreclosure in Southern California — Your Real Options in 2026",
+    intro:
+      "If you've missed mortgage payments or received a Notice of Default on your Southern California home, you have more options than most people realize — but the window to act closes faster than you think.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>If you've missed mortgage payments or received a Notice of Default on your Southern California home, you have more options than most people realize — but the window to act closes faster than you think. This article explains exactly where you are in the process and what you can actually do about it.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">California is a non-judicial foreclosure state</h2>
+        <p>Your lender does not need a judge's approval to take your home. The entire process runs on a strict, codified timeline under California Civil Code §2924 — and once certain documents are recorded with your county recorder's office, it becomes extremely difficult to reverse course. The process from the first missed payment to the auction of your home typically takes five to eight months. Most California homeowners in default still carry meaningful equity, which means you likely have options that don't involve losing everything.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The exact timeline — what happens and when</h2>
+        <p><strong className="font-medium text-gray-900">Day 1–90: Missed payments.</strong> Once you miss a payment, your lender will contact you within 36 days with loss mitigation options. Under the California Homeowner Bill of Rights (HBOR), your lender must assign you a single point of contact. This is your most valuable window — loss mitigation is far easier to negotiate before any formal foreclosure activity is recorded.</p>
+        <p><strong className="font-medium text-gray-900">Day 90–120: Notice of Default (NOD) recorded.</strong> After roughly three to four missed payments, the lender records a Notice of Default with your county recorder's office. This is now a public record — your name, property address, and outstanding debt are searchable. After the NOD is recorded, California Civil Code Section 2924 gives you a 90-day reinstatement period to cure the default by paying what you owe in missed payments, late fees, and legal costs.</p>
+        <p><strong className="font-medium text-gray-900">After the 90-day cure period: Notice of Trustee Sale (NOTS).</strong> If you don't reinstate the loan, the lender can record a Notice of Trustee Sale setting the auction date at least 21 days out. The statutory minimum from a recorded NOD to a completed sale is roughly 111 days — and in practice often longer.</p>
+        <p><strong className="font-medium text-gray-900">AB 2424.</strong> California's Assembly Bill 2424, signed in 2024, gives homeowners an additional 45-day postponement window under specific conditions. Consult a HUD-approved housing counselor or California real estate attorney to determine whether it applies to your situation.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Your options — what you can actually do</h2>
+        <p><strong className="font-medium text-gray-900">Reinstatement.</strong> Pay everything you owe — missed payments, late fees, and legal costs — in full before the 90-day cure period ends. This is the cleanest resolution but requires a lump sum most homeowners in default don't have.</p>
+        <p><strong className="font-medium text-gray-900">Loan modification.</strong> Request a modification to change the terms of your mortgage — reduced interest rate, extended term, or adding missed payments to the end of the loan. Under HBOR, your lender cannot pursue foreclosure while a complete loan modification application is pending. This is called dual-tracking and it is illegal in California. Apply directly through your lender's loss mitigation department. In California, charging a homeowner an upfront fee for loan modification or foreclosure consulting is generally illegal.</p>
+        <p><strong className="font-medium text-gray-900">Forbearance.</strong> A forbearance agreement pauses or reduces your payments temporarily. This is typically used for short-term hardship. Forbearance does not erase what you owe — it defers it — so understand the repayment terms before agreeing.</p>
+        <p><strong className="font-medium text-gray-900">Selling the property.</strong> If you have equity — and most Southern California homeowners do — selling before the trustee's sale is often the best financial outcome. A sale pays off the mortgage, stops the foreclosure, protects your credit, and puts any remaining equity in your pocket. If your home needs significant repairs, a cash sale as-is eliminates the time and cost of renovation in an already compressed timeline.</p>
+        <p><strong className="font-medium text-gray-900">Bankruptcy.</strong> Filing Chapter 13 triggers an automatic stay that immediately halts foreclosure. Chapter 13 lets you restructure debt and catch up on missed payments over three to five years. Consult a bankruptcy attorney — not a foreclosure rescue company — before pursuing this option.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What not to do</h2>
+        <p>Do not ignore your lender — avoiding calls forfeits options that require communication. Do not pay an upfront fee to any company offering foreclosure rescue services. Do not quitclaim your home to a stranger in exchange for a promise to save it — this is a common scam. Do not let the home go to auction if you have equity. An auction almost always produces a lower return than a controlled sale.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The one thing that determines your outcome</h2>
+        <p>Every homeowner who successfully navigates a foreclosure has one thing in common — they acted before the deadlines, not after. If you've received a Notice of Default or are behind on payments, contact a HUD-approved housing counselor at no cost, or call us. We can tell you honestly whether a cash sale makes sense for your situation — and if it doesn't, we'll tell you that too.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We'll give you an honest answer — not a pitch.</h4>
+          <p className="text-gray-600 text-sm mb-4">We work with Southern California homeowners in foreclosure every week. Cash offer, listing, or just pointing you in the right direction — we tell you what actually makes sense for your situation. Confidential and no obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal or financial advice. California foreclosure law is complex and fact-specific. Consult a licensed California attorney or HUD-approved housing counselor regarding your specific situation. Open Market Offers is a licensed California real estate brokerage.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
