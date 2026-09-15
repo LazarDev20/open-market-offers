@@ -69,6 +69,16 @@ const posts = [
       "You do not need to fly out or be present at any point. But California will still tax the gain regardless of where you live now, and several rules catch out-of-state owners off guard.",
     featured: false,
   },
+    {
+    slug: "selling-home-unpermitted-work-socal",
+    tag: "Seller Tips",
+    date: "September 15, 2026",
+    readTime: "7 min read",
+    title: "Selling a Home With Unpermitted Work in Southern California: What You Need to Know in 2026",
+    excerpt:
+      "Unpermitted work surfaces at the worst possible time. Here is what California law requires you to disclose, what it does to your sale price, and your three real options as a seller.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
