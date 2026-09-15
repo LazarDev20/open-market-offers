@@ -314,6 +314,58 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "is-now-a-good-time-to-sell-southern-california": {
+    tag: "Market Update",
+    date: "September 15, 2026",
+    readTime: "6 min read",
+    title: "Is Now a Good Time to Sell My Home in Southern California?",
+    intro:
+      "The honest answer depends on where your property is, what condition it is in, and what your personal situation requires. Here is what the current data actually shows.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>This is one of the most searched real estate questions in Southern California right now, and it deserves a straight answer rather than a pitch. The honest response is: it depends on where your property is, what condition it is in, and what your personal situation requires. Here is what the current data actually shows.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What the Southern California market looks like right now</h2>
+        <p>As of September 2026, the California median home price sits at $904,640, according to the California Association of Realtors. That is up 0.4 percent year over year, down from a record high of $930,260 in May, but still near historically elevated levels. Southern California is not seeing sharp price declines. It is seeing stabilization after years of rapid appreciation.</p>
+        <p>Homes in California are selling in an average of 42 to 50 days on market, which is well below the national average of 63 days. Properties are selling at 99.64 percent of their list price on average. Homes priced correctly are still selling close to asking, not sitting with repeated price reductions.</p>
+        <p>Inventory remains a factor in your favor as a seller. There were 106,530 homes for sale statewide in August 2026, down 3.5 percent year over year. Fewer homes for sale means your property faces less direct competition if it is priced and presented correctly.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The market varies significantly by county and neighborhood</h2>
+        <p>Southern California is not one market. It is dozens of micro-markets that behave differently from each other.</p>
+        <p>Orange County inventory peaked at roughly 5,200 homes in early August 2026 and has been declining for five consecutive weeks as of September 2026. That tightening supply creates better conditions for sellers. Well-priced homes in desirable OC neighborhoods are still attracting one to two offers and closing quickly.</p>
+        <p>The South Bay market in Los Angeles County shows homes selling at approximately 99.8 percent of list price as of September 2026, with roughly 3.4 months of supply. Sellers in high-demand communities like Manhattan Beach and Hermosa Beach are seeing modest appreciation, while areas like San Pedro require tighter pricing discipline.</p>
+        <p>Ventura County is showing solid price growth and improved sales activity. The Inland Empire has some of the highest concentrations of buyer demand from first-time purchasers who have been priced out of coastal markets.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Mortgage rates and how they affect your sale</h2>
+        <p>The 30-year fixed mortgage rate as of September 2026 sits at approximately 6.71 percent, according to Bankrate. This has reduced the pool of buyers who can qualify for larger loan amounts. What this means practically is that your buyer pool is more qualified than it was during the frenzy years, but smaller in total number. Buyers who are actively making offers in this rate environment have done the math and accepted current financing costs. They are not window shopping.</p>
+        <p>California is projected to see approximately 274,400 existing home sales in 2026, with prices forecast to appreciate 2 to 4 percent for the year and inventory growth of 5 to 10 percent. More inventory coming to market means more competition for your listing if you wait.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The seasonal timing question</h2>
+        <p>If you are asking about timing within the year, the data points to spring and early summer as the strongest window for maximum price. April is historically the fastest month to sell in California, with homes averaging 37 days on market. June tends to produce the highest sale prices.</p>
+        <p>September and October offer a secondary opportunity. Inventory typically drops in September as summer listings expire, meaning fewer competing homes. The buyers active in fall tend to be motivated, including relocating professionals and buyers who want to close before year end for tax purposes.</p>
+        <p>What most timing articles miss: the condition and pricing of your home will outperform any calendar advantage. A well-priced, well-prepared home listed in September will outperform an overpriced home listed in April. Every time.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Three situations where selling now makes sense</h2>
+        <p>If you have a specific financial or life reason to sell, the current market in most Southern California counties supports doing so. Prices are near record highs. Inventory remains constrained enough to support competitive buyer interest on properly priced homes.</p>
+        <p>It makes particular sense to sell now if you are carrying a property that is costing you money each month in taxes, insurance, maintenance, or mortgage payments. The opportunity cost of waiting for a better market is real, and there is no data that predicts a significant price surge on a specific timeline.</p>
+        <p>It also makes sense if you are open to both options. Not every Southern California homeowner needs to list on the open market and wait 42 to 50 days. If a direct cash offer makes more sense for your timeline, condition, or situation, that option exists regardless of season or market conditions.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The one number to watch</h2>
+        <p>Days on market in your specific ZIP code is the most reliable indicator of whether now is a good time to sell your home, not statewide averages. A home sitting 90 days in your neighborhood signals a soft local market. A home selling in under 21 days signals strong demand. Ask for that data before you list.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We work with Southern California homeowners across all five counties.</h4>
+          <p className="text-gray-600 text-sm mb-4">Whether you want to understand what your home would net in a traditional listing or whether a direct cash offer makes more sense for your situation, we give you both numbers honestly and let you decide. No cost, no obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only. Market conditions change frequently. Data sourced from Redfin, California Association of Realtors, Bankrate, and Orange County Real Estate Inc. as of September 2026. Open Market Offers is a licensed California real estate brokerage.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
