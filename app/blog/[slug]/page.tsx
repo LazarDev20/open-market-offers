@@ -411,7 +411,7 @@ const articles: Record<string, {
           </div>
         </div>
 
-        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California real estate law is complex and fact-specific. Consult a licensed California real estate attorney before entering into any sale agreement. Open Market Offers operates under a licensed California real estate agent. CA DRE #00000000.</p>
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California real estate law is complex and fact-specific. Consult a licensed California real estate attorney before entering into any sale agreement. Open Market Offers operates under a licensed California real estate agent. </p>
       </div>
     ),
   },
