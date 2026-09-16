@@ -310,7 +310,7 @@ const articles: Record<string, {
           </div>
         </div>
 
-        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California real estate law and local permit requirements are complex and vary by jurisdiction. Consult a licensed California real estate attorney regarding your specific situation. Open Market Offers is a licensed California real estate brokerage.</p>
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California real estate law and local permit requirements are complex and vary by jurisdiction. Consult a licensed California real estate attorney regarding your specific situation. Open Market Offers operates under a licensed California real estate agent.</p>
       </div>
     ),
   },
