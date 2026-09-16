@@ -89,6 +89,16 @@ const posts = [
       "The California median home price sits at $904,640, inventory is down 3.5 percent year over year, and homes are selling at 99.64 percent of list price. Here is what the data actually shows for sellers right now.",
     featured: false,
   },
+    {
+    slug: "how-to-sell-hoarder-house-socal",
+    tag: "Seller Tips",
+    date: "September 16, 2026",
+    readTime: "6 min read",
+    title: "How to Sell a Hoarder House in Southern California",
+    excerpt:
+      "You do not need to clear a single item before the sale is complete. Here is what California law requires you to disclose, what your three real options are, and how the financial math actually works.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
