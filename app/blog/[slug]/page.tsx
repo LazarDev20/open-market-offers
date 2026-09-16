@@ -43,7 +43,7 @@ const articles: Record<string, {
         <p><strong className="font-medium text-gray-900">Sell the home.</strong> The most straightforward path for most families. You can sell for cash — which closes quickly and requires no repairs — or list on the open market to maximize your sale price. We show you both options with real numbers.</p>
         <p><strong className="font-medium text-gray-900">Rent the property.</strong> If the home carries sentimental value or you believe rents will continue to rise, holding and renting is an option. Be aware of California's tenant protection laws, which are among the strongest in the nation.</p>
         <p><strong className="font-medium text-gray-900">Move in.</strong> If you plan to use the home as your primary residence, moving in within one year may qualify you for a partial Prop 19 exclusion on property taxes. Consult a CPA who specializes in California real estate tax before making this decision.</p>
-        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. Please consult a licensed California estate attorney and CPA regarding your specific situation. Open Market Offers is a licensed California real estate brokerage.</p>
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. Please consult a licensed California estate attorney and CPA regarding your specific situation. Open Market Offers operates under a licensed California real estate agent.</p>
       </div>
     ),
   },
