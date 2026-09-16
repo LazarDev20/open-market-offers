@@ -164,7 +164,7 @@ const articles: Record<string, {
           </div>
         </div>
 
-        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. California landlord-tenant law is complex and changes frequently. Consult a licensed California attorney and CPA before making any decisions about selling rental property. Open Market Offers is a licensed California real estate brokerage.</p>
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. California landlord-tenant law is complex and changes frequently. Consult a licensed California attorney and CPA before making any decisions about selling rental property. Open Market Offers operates under a licensed California real estate agent.</p>
       </div>
     ),
   },
