@@ -110,7 +110,7 @@ const articles: Record<string, {
             <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
           </div>
         </div>
-        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. Open Market Offers is a licensed California real estate brokerage.</p>
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. Open Market Offers operates under a licensed California real estate agent.</p>
       </div>
     ),
   },
