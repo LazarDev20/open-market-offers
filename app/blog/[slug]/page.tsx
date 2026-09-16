@@ -366,6 +366,55 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "how-to-sell-hoarder-house-socal": {
+    tag: "Seller Tips",
+    date: "September 16, 2026",
+    readTime: "6 min read",
+    title: "How to Sell a Hoarder House in Southern California",
+    intro:
+      "Selling a home with severe clutter or hoarding conditions is one of the more emotionally and logistically complex situations a Southern California homeowner or family can face. Here is what California law requires, what your realistic options are, and how to think through the financial decision.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Most people in this situation are dealing with a death in the family, a parent transitioning to care, or years of deferred decision-making catching up all at once. This article covers what California law requires, what your realistic options are, and how to think through the financial decision without pressure.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What California law requires you to disclose</h2>
+        <p>California Civil Code Section 1102 requires all sellers of one to four unit residential properties to complete a Transfer Disclosure Statement disclosing known material defects. This obligation does not go away because the home has hoarding conditions, and it does not go away because you are selling as-is.</p>
+        <p>California Civil Code Section 1102.1 explicitly states that delivery of a Transfer Disclosure Statement may not be waived in an as-is sale. Selling as-is means the buyer accepts the property in its current condition without requiring repairs. It does not mean you can skip disclosures.</p>
+        <p>What you are required to disclose includes structural issues, water damage, mold, plumbing problems, pest damage, and any code violations you are aware of. You do not need to label the condition as hoarding on the disclosure form, but any known physical defects to the structure or systems that resulted from or were concealed by the clutter must be disclosed.</p>
+        <p>Post-close litigation in California over undisclosed defects is common. A buyer who discovers structural damage, mold, or a rodent infestation after closing can and will pursue legal remedies. Document what you know and disclose it accurately before the sale closes.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The three paths available to you</h2>
+        <p><strong className="font-medium text-gray-900">Full cleanout before listing.</strong> You hire a professional junk removal and remediation company to clear the property, address any damage uncovered during the cleanout, and bring the home to a condition that supports a traditional listing. This path opens your buyer pool to conventionally financed buyers, which typically produces the highest sale price. Professional cleanouts for severely hoarded properties in Southern California range from $3,000 to $25,000 or more depending on the volume of contents, access conditions, and what is discovered underneath. If structural repairs, mold remediation, or pest treatment are required after the cleanout, costs increase further. A full cleanout and repair process before listing realistically takes three to six months for a severely hoarded property.</p>
+        <p><strong className="font-medium text-gray-900">Partial cleanout with disclosure.</strong> You clear enough of the property to allow access for inspections and showings, disclose the known condition accurately, and price to reflect the remaining work required. This path works when the clutter is the primary issue and the underlying structure is sound. It attracts experienced buyers who are comfortable taking on the remaining cleanup themselves, typically at a negotiated price reduction.</p>
+        <p><strong className="font-medium text-gray-900">Sell as-is to a cash buyer.</strong> You sell the property in its current condition without any cleanout, repair, or preparation. This path closes in as little as 14 to 21 days, requires no out-of-pocket cost from you, and eliminates the logistics of coordinating a cleanout while managing an estate or family situation. Cash offers on severely hoarded properties in Southern California typically come in 20 to 40 percent below the property's as-remediated value, reflecting the buyer's cost and risk in taking on the condition.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The financial comparison most sellers do not run</h2>
+        <p>The assumption that a full cleanout always produces better net proceeds is not always accurate. On a $750,000 as-remediated value property in Orange County, consider this comparison.</p>
+        <p><strong className="font-medium text-gray-900">Full cleanout and traditional listing:</strong> $750,000 sale price, minus $15,000 cleanout, minus $30,000 in repairs discovered during cleanout, minus $45,000 in agent commission at 6 percent, minus $10,000 in closing costs, minus four to six months of carrying costs at $3,500 per month. Net result: roughly $628,000 to $636,000 after seven months.</p>
+        <p><strong className="font-medium text-gray-900">As-is cash sale:</strong> $525,000 offer at a 30 percent discount to remediated value, minimal closing costs, closes in three weeks. Net result: approximately $518,000 after three weeks with no out-of-pocket expense.</p>
+        <p>The gap between those two outcomes is real but narrower than most people assume. For families managing an estate from out of state, or for sellers who cannot coordinate a cleanout, the as-is path often makes more practical sense than the numbers alone suggest.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">If the property is in probate</h2>
+        <p>If the home belonged to someone who passed away without a trust, you will need legal authority to sell before a transaction can close. In California, the Independent Administration of Estates Act allows an executor or administrator to sell property without court confirmation in many cases, which can significantly speed up the timeline. Consult a California probate attorney before entering into any sale agreement to confirm your authority to sell.</p>
+        <p>Cash buyers are generally familiar with probate timelines and can structure transactions around them. Most conventionally financed buyers cannot.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What to do first</h2>
+        <p>Before you contact any buyer, investor, or real estate agent, pull the building permit history on the property from your county building department. In Los Angeles County, search at ladbs.org. In Orange County, use the county building permit portal. If the property has unpermitted additions, those need to be disclosed separately on the Transfer Disclosure Statement in addition to any condition issues.</p>
+        <p>Get a professional inspection before you set a price or accept any offer. Understanding what is underneath the clutter before you negotiate gives you accurate information and reduces your legal exposure. Sellers who rush past this step consistently get the worst outcomes and face the highest post-close risk.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We buy Southern California homes in any condition.</h4>
+          <p className="text-gray-600 text-sm mb-4">Including properties with severe hoarding, estate situations, and active probate. We can also help you evaluate what a traditional listing would realistically net after cleanout and carrying costs so you can compare both paths with accurate numbers. No obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California real estate law is complex and fact-specific. Consult a licensed California real estate attorney before entering into any sale agreement. Open Market Offers operates under a licensed California real estate agent. CA DRE #00000000.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
