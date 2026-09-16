@@ -260,7 +260,7 @@ const articles: Record<string, {
           </div>
         </div>
 
-        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. California tax law is complex and fact-specific. Consult a licensed California CPA or tax attorney before making any decisions about selling your California property. Open Market Offers is a licensed California real estate brokerage.</p>
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. California tax law is complex and fact-specific. Consult a licensed California CPA or tax attorney before making any decisions about selling your California property. Open Market Offers operates under a licensed California real estate agent.</p>
       </div>
     ),
   },
