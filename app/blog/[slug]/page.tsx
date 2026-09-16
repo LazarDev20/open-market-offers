@@ -362,7 +362,7 @@ const articles: Record<string, {
           </div>
         </div>
 
-        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only. Market conditions change frequently. Data sourced from Redfin, California Association of Realtors, Bankrate, and Orange County Real Estate Inc. as of September 2026. Open Market Offers is a licensed California real estate brokerage.</p>
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only. Market conditions change frequently. Data sourced from Redfin, California Association of Realtors, Bankrate, and Orange County Real Estate Inc. as of September 2026. Open Market Offers operates under a licensed California real estate agent.</p>
       </div>
     ),
   },
