@@ -99,6 +99,16 @@ const posts = [
       "You do not need to clear a single item before the sale is complete. Here is what California law requires you to disclose, what your three real options are, and how the financial math actually works.",
     featured: false,
   },
+    {
+    slug: "stop-paying-hoa-california",
+    tag: "Seller Tips",
+    date: "September 16, 2026",
+    readTime: "6 min read",
+    title: "What Happens When You Stop Paying Your HOA in California",
+    excerpt:
+      "An HOA can place a lien on your home and foreclose on it for unpaid assessments — even if your mortgage is current. Here is exactly what happens, in what order, and what your options are under California law.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
