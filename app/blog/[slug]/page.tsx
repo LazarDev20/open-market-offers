@@ -415,6 +415,51 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "stop-paying-hoa-california": {
+    tag: "Seller Tips",
+    date: "September 16, 2026",
+    readTime: "6 min read",
+    title: "What Happens When You Stop Paying Your HOA in California",
+    intro:
+      "Most California homeowners in HOA communities think of unpaid dues as a billing problem. They are not. Under the Davis-Stirling Act, an HOA has the legal authority to place a lien on your home and foreclose on it for unpaid assessments — even if your mortgage is completely current.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Under California's Davis-Stirling Common Interest Development Act, which governs all homeowner associations in the state, an HOA has the legal authority to place a lien on your home and foreclose on it for unpaid assessments. That can happen even if your mortgage is completely current. This article covers exactly what happens, in what order, and what your options are.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The step-by-step process California HOAs follow</h2>
+        <p><strong className="font-medium text-gray-900">Step one: Delinquency notice.</strong> Once you miss an assessment payment, the HOA will send a Notice of Delinquent Assessment as required by California Civil Code Section 5660. This notice must include an itemized statement of all charges, including the delinquent assessment, late charges not exceeding 10 percent of the delinquent amount or $10 whichever is greater, and interest not to exceed 12 percent annually under Civil Code Section 5650.</p>
+        <p><strong className="font-medium text-gray-900">Step two: Pre-lien notice.</strong> Before the HOA can record a lien against your property, California law requires it to send you a pre-lien notice by certified mail at least 30 days in advance. This is your most important window. A lien has not been recorded yet. You can still negotiate a payment plan, dispute charges through the HOA's internal dispute resolution process, or pay in full without the transaction affecting your title.</p>
+        <p><strong className="font-medium text-gray-900">Step three: Lien recording.</strong> If you do not respond or pay within that 30-day window, the HOA records an assessment lien against your property with the county recorder's office. That lien is now a public record and a cloud on your title. You cannot sell or refinance the property without resolving it. The lien includes the delinquent assessments plus costs, attorney fees, and interest.</p>
+        <p><strong className="font-medium text-gray-900">Step four: Foreclosure threshold.</strong> California law under Civil Code Section 5720 prohibits an HOA from initiating foreclosure unless the delinquent assessments total at least $1,800 or the delinquency is at least 12 months old. Fines and late fees alone do not count toward that threshold. Once you cross that line, the HOA board must vote to approve foreclosure and serve you with formal notice.</p>
+        <p><strong className="font-medium text-gray-900">Step five: Notice of Default.</strong> Once the board approves foreclosure and notice is served, a 90-day cure period begins. If you pay the full amount owed including all fees and costs within those 90 days, the foreclosure stops. If you do not, the HOA can record a Notice of Trustee Sale setting a foreclosure auction date at least 20 days out.</p>
+        <p><strong className="font-medium text-gray-900">Step six: Foreclosure sale.</strong> If no payment is made, the property goes to auction. The redemption period after an HOA foreclosure in California under Civil Code Section 5715 is only 90 days. That is a tight window to reclaim your home after it has already been sold.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What a recorded HOA lien does to a pending sale</h2>
+        <p>If you have an HOA lien on your property and you are trying to sell, the lien must be resolved before escrow can close. Title insurance will not be issued with an outstanding HOA lien, and no buyer's lender will fund a purchase with a clouded title. The lien gets paid from your sale proceeds at closing, which reduces what you walk away with.</p>
+        <p>The HOA can also wait until you sell and demand full payment during escrow. If the outstanding balance has grown to include years of fees, interest, late charges, and attorney fees, the amount demanded at closing can be significantly higher than the original delinquent amount.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What your options are if you have fallen behind</h2>
+        <p><strong className="font-medium text-gray-900">Contact the HOA before a lien is recorded.</strong> The pre-lien notice period is your best window. Many HOAs prefer collecting through a structured payment plan over proceeding to foreclosure. Approach them directly, request an itemized statement, verify every line item for accuracy, and negotiate in writing. Errors on HOA statements do occur and can be challenged through the internal dispute resolution process before any lien is recorded.</p>
+        <p><strong className="font-medium text-gray-900">If a lien has already been recorded</strong>, you can still pay in full, negotiate a payoff amount, or dispute charges through a formal process. An HOA attorney can assess whether the HOA followed all required statutory procedures. Procedural errors in the pre-lien notice or lien recording process can sometimes invalidate the lien entirely.</p>
+        <p><strong className="font-medium text-gray-900">If you are trying to sell</strong> and a lien is blocking the transaction, the lien will be paid through escrow. Work with your escrow officer to request a payoff demand from the HOA early in the transaction so there are no surprises at closing.</p>
+        <p><strong className="font-medium text-gray-900">If the HOA has already initiated foreclosure proceedings</strong>, consult a California real estate attorney immediately. You are inside a timeline governed by specific statutory deadlines, and missing any one of them can cost you the property.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">One thing most sellers do not know</h2>
+        <p>An HOA cannot foreclose based on fines and late fees alone. Under Civil Code Section 5725, fines are not assessments. If your delinquent balance is made up primarily of fines for CC&R violations rather than unpaid dues, the HOA cannot use the lien and foreclosure process to collect them. It can sue you in small claims court, or it can wait until you sell and demand payment in escrow. But it cannot foreclose on fines alone. Knowing this distinction matters if you are reviewing an itemized demand and trying to understand what is actually collectible through each mechanism.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We can help you understand your options.</h4>
+          <p className="text-gray-600 text-sm mb-4">If you own a Southern California home with a recorded HOA lien and are trying to understand what selling would realistically net, we can walk you through both a cash sale and a traditional listing with accurate numbers. No obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California HOA law is complex and fact-specific. Consult a licensed California real estate attorney if you have a recorded HOA lien or are facing HOA foreclosure proceedings. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
