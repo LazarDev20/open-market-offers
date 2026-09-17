@@ -460,6 +460,55 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "wildfire-disclosure-southern-california": {
+    tag: "Seller Tips",
+    date: "September 17, 2026",
+    readTime: "7 min read",
+    title: "Wildfire Disclosure Requirements When Selling a Home in Southern California",
+    intro:
+      "The January 2025 Palisades and Eaton fires permanently changed what Southern California sellers must disclose and, more importantly, what buyers can actually get financed. Two things shifted under you: the state redrew its fire maps in 2025, pulling far more homes into disclosure territory, and the insurance market tightened to the point that the biggest threat to your sale is often not a form at all.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>If you own a home in or near a fire hazard zone, the law now requires more of you at the point of sale, and the real risk to your closing may have nothing to do with paperwork. Here is what is required, what changed in 2025, and where deals actually fall apart.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The three disclosures every California seller has to handle</h2>
+        <p>California requires a written disclosure package on virtually every sale of a one-to-four-unit home, including as-is sales. Three documents matter for fire.</p>
+        <p><strong className="font-medium text-gray-900">Transfer Disclosure Statement.</strong> Governed by California Civil Code Section 1102, it requires you to disclose all known material defects and conditions of the property. Staying silent about something you know is the fastest path to a lawsuit after closing.</p>
+        <p><strong className="font-medium text-gray-900">Natural Hazard Disclosure Statement.</strong> Governed by Civil Code Section 1103, it tells the buyer whether the property sits in a state-designated hazard zone, including a fire hazard severity zone. California is the only state in the country that mandates this report. Sellers typically order it from a licensed third-party vendor for roughly $50 to $150, and it takes about 10 to 15 days, which is why ordering it early is standard practice.</p>
+        <p><strong className="font-medium text-gray-900">AB 38 fire-hardening disclosure.</strong> Governed by Civil Code Section 1102.6f, this is the one most sellers do not see coming. It applies to homes in a High or Very High Fire Hazard Severity Zone that were built before January 1, 2010.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What changed in 2025: the new CAL FIRE maps</h2>
+        <p>For much of Southern California, the fire hazard maps had not been meaningfully updated since around 2011. That ended in 2025. The Office of the State Fire Marshal released updated Local Responsibility Area maps in four phases between February and March 2025, with the phase covering Southern California released on March 24, 2025. The new maps classify land into moderate, high, and very high zones, where the older local maps often only flagged very high.</p>
+        <p>Once the state recommends a zone, a local agency cannot lower it. Under Government Code Section 51179, a city or county can only keep the state designation or raise it, and must adopt the maps by ordinance within 120 days of release, though adoption timing varies by city. The practical result is simple. Many Southern California homes that were never in a designated fire zone are now mapped into one, which means disclosure obligations that did not apply to your neighbor's sale two years ago may apply to yours today.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The AB 38 fire-hardening disclosure, expanded July 1, 2025</h2>
+        <p>If your home is in a High or Very High Fire Hazard Severity Zone and was built before January 1, 2010, AB 38 requires more than checking a box. You must disclose fire-vulnerable features you are aware of, such as an untreated wood shake or shingle roof or gutters without covers that let flammable debris collect. Since July 1, 2021, you must also provide documentation that the property complies with defensible space rules under Public Resources Code Section 4291. If that documentation is not available before escrow closes, the buyer and seller can agree in writing that the buyer will obtain it within one year of closing. That escape hatch is common, but it shifts a real obligation onto the buyer, and informed buyers negotiate it into the price.</p>
+        <p>As of July 1, 2025, the disclosure expanded again. The notice must now include the State Fire Marshal's list of low-cost home-hardening retrofits, and you must indicate which of those measures currently exist on the home, even if the answer is none. The California Association of Realtors updated its standard disclosure form to include this checklist.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The real deal-killer: insurance</h2>
+        <p>Here is where fire-zone sales actually fall apart, and it has little to do with paperwork. A mortgage lender will not fund a loan without proof of a bound homeowners policy. In many high-fire Southern California ZIP codes, standard carriers have stopped writing, and the only option is the California FAIR Plan, the state's insurer of last resort, which covers fire only and is usually paired with a separate Difference in Conditions policy for everything else.</p>
+        <p>The strain is well documented. As of June 2026, the FAIR Plan reported 696,562 policies in force, a roughly 157 percent increase since September 2022, with total exposure near $768 billion. In the highest-risk Los Angeles ZIP codes, an estimated 41 percent of homes were insured through the FAIR Plan as of early 2026. The FAIR Plan filed for an average rate increase of about 35.8 percent in October 2025, effective April 2026, with the most exposed policyholders facing more. Basic coverage in the most exposed areas can run roughly $5,000 to $25,000 a year.</p>
+        <p>Two things make this a seller's problem. A financed buyer who cannot secure acceptable insurance cannot close, no matter how clean your disclosures are, and this is now the single most common reason wildfire-zone deals collapse in escrow. On top of that, FAIR Plan policy issuance can take two to three weeks, a real obstacle on a short closing timeline.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What this does to your sale price and timeline</h2>
+        <p>Disclosure alone carries a measurable cost. Research from Resources for the Future found that homes facing wildfire disclosure sold for roughly 4.3 percent less on average, with a larger effect in Southern California and in the years following major fires. On top of that discount, you carry the risk that a financed buyer removes contingencies, then discovers late that no carrier will write the policy, and the deal unwinds after you have already taken the home off the market for weeks.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">One thing most sellers do not know</h2>
+        <p>The insurance problem only kills financed sales. A cash buyer does not have a lender requiring a bound policy before closing, which means the single most common reason fire-zone deals collapse simply does not apply. That does not erase your disclosure obligations. You still owe the buyer an honest Natural Hazard Disclosure, an accurate Transfer Disclosure Statement, and the AB 38 fire-hardening notice if your home qualifies. But it removes the one variable you have the least control over: whether a third-party carrier decides your buyer's house is worth writing.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We can help you understand your options.</h4>
+          <p className="text-gray-600 text-sm mb-4">If you own a Southern California home in a fire hazard zone and want to know what a clean, contingency-free sale would realistically net compared to a traditional financed listing, we can walk you through both sets of numbers honestly. No obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California wildfire disclosure and insurance rules are complex, fact-specific, and change frequently. Confirm your property's current fire hazard zone designation with CAL FIRE and consult a licensed California real estate attorney or your NHD provider before completing your disclosures. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
