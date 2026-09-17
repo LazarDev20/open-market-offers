@@ -554,6 +554,7 @@ const articles: Record<string, {
       </div>
     ),
   },
+  };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const article = articles[params.slug];
@@ -561,10 +562,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${article.title} | Open Market Offers`,
     description: article.intro,
-  };
-}
+     ),
+  },
+};
 
-export function generateStaticParams() {
+export async function generateMetadata({ params }: ...
   return Object.keys(articles).map((slug) => ({ slug }));
 }
 
