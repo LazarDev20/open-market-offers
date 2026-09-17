@@ -109,6 +109,16 @@ const posts = [
       "An HOA can place a lien on your home and foreclose on it for unpaid assessments — even if your mortgage is current. Here is exactly what happens, in what order, and what your options are under California law.",
     featured: false,
   },
+    {
+    slug: "prop-19-inherited-home-california",
+    tag: "Seller Tips",
+    date: "September 17, 2026",
+    readTime: "7 min read",
+    title: "What Prop 19 Does to Your Property Taxes When You Inherit a Home in California",
+    excerpt:
+      "Most heirs assume they inherit their parents' low property tax bill. Since 2021, Prop 19 changed that. Here is who gets reassessed, the value cap that catches even those who move in, and why so many heirs sell.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
