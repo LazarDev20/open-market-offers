@@ -509,6 +509,19 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "prop-19-inherited-home-california": {
+    tag: "Seller Tips",
+    date: "September 17, 2026",
+    readTime: "7 min read",
+    title: "What Prop 19 Does to Your Property Taxes When You Inherit a Home in California",
+    intro:
+      "Most families assume that when they inherit their parents' house, they inherit the low property tax bill that came with it. Since February 16, 2021, that is no longer true in California. Proposition 19 rewrote the rules for inherited property, and for many heirs the result is a property tax bill several times higher than what their parents paid.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Here is exactly how Prop 19 works, who gets hit, and why so many heirs end up selling.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What Prop 19 actually changed</h2>
+        <p>Under the old law, Proposition 58, a parent could transfer a primary residence to a child with no property tax reassessment at all, no matter what the home was worth or
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
