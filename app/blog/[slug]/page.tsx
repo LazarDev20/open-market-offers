@@ -509,7 +509,7 @@ const articles: Record<string, {
       </div>
     ),
   },
-    "prop-19-inherited-home-california": {
+      "prop-19-inherited-home-california": {
     tag: "Seller Tips",
     date: "September 17, 2026",
     readTime: "7 min read",
@@ -521,8 +521,39 @@ const articles: Record<string, {
         <p>Here is exactly how Prop 19 works, who gets hit, and why so many heirs end up selling.</p>
 
         <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What Prop 19 actually changed</h2>
-        <p>Under the old law, Proposition 58, a parent could transfer a primary residence to a child with no property tax reassessment at all, no matter what the home was worth or
-};
+        <p>Under the old law, Proposition 58, a parent could transfer a primary residence to a child with no property tax reassessment at all, no matter what the home was worth or what the child did with it. Parents could also pass down up to $1 million of assessed value in other property, such as rentals and vacation homes, with the low tax base intact. Families used this for decades to keep inherited homes affordable to hold.</p>
+        <p>Proposition 19, which took effect February 16, 2021, largely eliminated that. The broad parent-child exclusion is gone. What remains is a narrow exclusion with strict conditions, and missing any one of them triggers a full reassessment to current market value.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The only way to keep the low tax base now</h2>
+        <p>Three things all have to be true. The property has to be the parent's family home, meaning their principal residence. It has to pass to a child, or in some cases a grandchild. And the child has to move in as their own principal residence within one year of the transfer and file for the homeowners' exemption.</p>
+        <p>If the home is anything other than your primary residence after you inherit it, a rental you keep, a vacation house, or a home you simply do not move into, it is reassessed to full current market value. There is no exclusion at all. For most heirs, who already have their own home and inherit their parents' as a second property, this is the default outcome.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Even moving in does not fully protect you</h2>
+        <p>There is a value cap on top of the primary-residence rule. The exclusion protects the parent's existing assessed value plus roughly $1.04 million of additional value. For transfers occurring between February 16, 2025 and February 15, 2027, the exact figure set by the Board of Equalization is $1,044,586. That amount adjusts every two years, with the next change due February 16, 2027.</p>
+        <p>If the home's current market value is higher than the parent's assessed value plus that cap, the excess gets added to your new assessed value. Here is the math on a common case. Say your parents' assessed value is $300,000 and the home is now worth $1.5 million. The protected amount is $300,000 plus $1,044,586, which is $1,344,586. The market value exceeds that by $155,414, and that difference is added on. Your new assessed value becomes about $455,414, versus the $300,000 your parents were taxed on. Your property tax bill increases by roughly half again, permanently.</p>
+        <p>In higher-priced Southern California markets, where plenty of homes run well past $2 million, the cap barely moves the needle. Many heirs there face a near-full reassessment even when they do everything right.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Why this pushes so many heirs to sell</h2>
+        <p>The reassessment takes effect from the date of transfer, which is usually the date of death. That means the higher tax starts accruing immediately, on top of insurance, maintenance, and any remaining mortgage, while you are still deciding what to do. For a home you cannot or do not want to live in, the carrying cost adds up fast.</p>
+        <p>There is also a federal rule that works in your favor if you sell. When you inherit, your cost basis in the home resets to its market value at the date of death. This is called a stepped-up basis. It means selling soon after you inherit often triggers little or no capital gains tax, because there has been almost no gain since you acquired it. For many heirs, a prompt sale is the cleanest financial move: you avoid the reassessed tax bill piling up, and the step-up minimizes what you owe on the sale. This is a separate federal tax matter, so confirm the specifics with a tax professional.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">One thing most sellers do not know</h2>
+        <p>A living trust does not save you from Prop 19. Families routinely assume that putting the house in a revocable living trust sidesteps the reassessment. It does not. A trust helps you avoid probate, but it does not exempt inherited real estate from Prop 19. The rules apply based on your relationship to the owner and how the property is used, not on how title is held.</p>
+        <p>And do not count on a repeal bailing you out. Efforts to roll back Prop 19's inheritance rules have repeatedly failed to reach the ballot, most recently falling short of qualifying for the November 2026 election. For now and the foreseeable future, this is the law.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">Inherited a home and the numbers do not work?</h4>
+          <p className="text-gray-600 text-sm mb-4">If you have inherited a Southern California home and the new property tax bill does not pencil out, we can walk you through what a fast, as-is cash sale would realistically net compared to holding or listing it. Because your basis stepped up at the date of death, selling soon often means little to no capital gains. Honest numbers, no obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal or tax advice. Proposition 19 and California property tax rules are complex and fact-specific, and the exclusion amount changes over time. Confirm your property's current assessed value and any reassessment with your county assessor, and consult a licensed California real estate attorney or tax professional before making decisions. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const article = articles[params.slug];
