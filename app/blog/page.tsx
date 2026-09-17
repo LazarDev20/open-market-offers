@@ -120,13 +120,13 @@ const posts = [
     featured: false,
   },
     {
-    slug: "prop-19-inherited-home-california",
+    slug: "wildfire-disclosure-southern-california",
     tag: "Seller Tips",
     date: "September 17, 2026",
     readTime: "7 min read",
-    title: "What Prop 19 Does to Your Property Taxes When You Inherit a Home in California",
+    title: "Wildfire Disclosure Requirements When Selling a Home in Southern California",
     excerpt:
-      "Most heirs assume they inherit their parents' low property tax bill. Since 2021, Prop 19 changed that. Here is who gets reassessed, the value cap that catches even those who move in, and why so many heirs sell.",
+      "After the 2025 fires, the state redrew its fire maps and pulled far more homes into disclosure territory. But the real threat to your sale is whether your buyer can even get insured. Here is what to know.",
     featured: false,
   },
 ];
