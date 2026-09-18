@@ -26,7 +26,6 @@ export default function LeadForm({
   const addrRef = useRef<HTMLInputElement>(null);
   const nameRef = useRef<HTMLInputElement>(null);
 
-  // Google Places autocomplete — only if a key is configured.
   useEffect(() => {
     const key = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
     if (!key || !addrRef.current) return;
@@ -67,7 +66,6 @@ export default function LeadForm({
     }
   }, []);
 
-  // Focus the name field when advancing to step 2.
   useEffect(() => {
     if (step === 2) nameRef.current?.focus();
   }, [step]);
@@ -131,7 +129,6 @@ export default function LeadForm({
           : "Where should we send your offer?"}
       </p>
 
-      {/* Progress */}
       <div className="mb-5 flex items-center gap-2">
         <div className="h-1.5 flex-1 rounded-full bg-teal transition" />
         <div
