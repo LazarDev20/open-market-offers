@@ -129,6 +129,16 @@ const posts = [
       "After the 2025 fires, the state redrew its fire maps and pulled far more homes into disclosure territory. But the real threat to your sale is whether your buyer can even get insured. Here is what to know.",
     featured: false,
   },
+    {
+    slug: "new-commission-rules-california",
+    tag: "Seller Tips",
+    date: "September 17, 2026",
+    readTime: "6 min read",
+    title: "The New Commission Rules: What California Home Sellers Need to Know in 2026",
+    excerpt:
+      "The 2024 settlement and California's own AB 2992 rewrote who pays the buyer's agent. Here is what actually changed for sellers, and where the savings are real versus overstated.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
