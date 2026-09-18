@@ -562,11 +562,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${article.title} | Open Market Offers`,
     description: article.intro,
-     ),
-  },
-};
+  };
+}
 
-export async function generateMetadata({ params }: ...
+export function generateStaticParams() {
   return Object.keys(articles).map((slug) => ({ slug }));
 }
 
