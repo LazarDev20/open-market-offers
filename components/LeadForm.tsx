@@ -1,12 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { SITUATIONS } from "@/lib/site";
 
 declare global {
   interface Window {
     google?: any;
-    initOMOAutocomplete?: () => void;
   }
 }
 
@@ -20,7 +18,13 @@ export default function LeadForm({
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">(
     "idle"
   );
+  const [step, setStep] = useState(1);
+  const [address, setAddress] = useState("");
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+
   const addrRef = useRef<HTMLInputElement>(null);
+  const nameRef = useRef<HTMLInputElement>(null);
 
   // Google Places autocomplete — only if a key is configured.
   useEffect(() => {
@@ -29,10 +33,14 @@ export default function LeadForm({
 
     function attach() {
       if (!window.google?.maps?.places || !addrRef.current) return;
-      new window.google.maps.places.Autocomplete(addrRef.current, {
+      const ac = new window.google.maps.places.Autocomplete(addrRef.current, {
         types: ["address"],
         componentRestrictions: { country: "us" },
         fields: ["formatted_address"],
+      });
+      ac.addListener("place_changed", () => {
+        const place = ac.getPlace();
+        if (place?.formatted_address) setAddress(place.formatted_address);
       });
     }
 
@@ -59,17 +67,28 @@ export default function LeadForm({
     }
   }, []);
 
+  // Focus the name field when advancing to step 2.
+  useEffect(() => {
+    if (step === 2) nameRef.current?.focus();
+  }, [step]);
+
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+
+    if (step === 1) {
+      if (address.trim()) setStep(2);
+      return;
+    }
+
+    if (!name.trim() || !phone.trim()) return;
+
     setStatus("sending");
-    const form = e.currentTarget;
     const data = {
-      address: (form.elements.namedItem("address") as HTMLInputElement).value,
-      name: (form.elements.namedItem("name") as HTMLInputElement).value,
-      phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
-      email: (form.elements.namedItem("email") as HTMLInputElement).value,
-      situation: (form.elements.namedItem("situation") as HTMLSelectElement)
-        .value,
+      address,
+      name,
+      phone,
+      email: "",
+      situation: "",
       source,
     };
     try {
@@ -106,78 +125,104 @@ export default function LeadForm({
       className="rounded-2xl border border-line bg-white p-7 shadow-xl"
     >
       <h3 className="font-display text-2xl">Get your cash offer</h3>
-      <p className="mb-5 mt-1 text-sm text-ink-soft">
-        No obligation. We&rsquo;ll call you shortly.
+      <p className="mb-4 mt-1 text-sm text-ink-soft">
+        {step === 1
+          ? "Start with your address. Takes about 30 seconds."
+          : "Where should we send your offer?"}
       </p>
 
-      <Field label="Property address">
-        <input
-          ref={addrRef}
-          name="address"
-          required
-          autoComplete="street-address"
-          placeholder="123 Main St, city, CA"
-          className={inputCls}
+      {/* Progress */}
+      <div className="mb-5 flex items-center gap-2">
+        <div className="h-1.5 flex-1 rounded-full bg-teal transition" />
+        <div
+          className={`h-1.5 flex-1 rounded-full transition ${
+            step === 2 ? "bg-teal" : "bg-line"
+          }`}
         />
-      </Field>
-
-      <div className={compact ? "" : "grid grid-cols-1 gap-3 sm:grid-cols-2"}>
-        <Field label="Full name">
-          <input
-            name="name"
-            required
-            autoComplete="name"
-            placeholder="Your name"
-            className={inputCls}
-          />
-        </Field>
-        <Field label="Phone">
-          <input
-            name="phone"
-            type="tel"
-            required
-            autoComplete="tel"
-            placeholder="(000) 000-0000"
-            className={inputCls}
-          />
-        </Field>
+        <span className="ml-1 text-xs font-medium text-ink-soft">
+          Step {step} of 2
+        </span>
       </div>
 
-      <Field label="Email">
-        <input
-          name="email"
-          type="email"
-          required
-          autoComplete="email"
-          placeholder="you@email.com"
-          className={inputCls}
-        />
-      </Field>
+      {step === 1 && (
+        <>
+          <Field label="Property address">
+            <input
+              ref={addrRef}
+              name="address"
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+              required
+              autoComplete="street-address"
+              placeholder="123 Main St, city, CA"
+              className={inputCls}
+            />
+          </Field>
 
-      <Field label="Your situation (optional)">
-        <select name="situation" className={inputCls} defaultValue="">
-          <option value="">Select one…</option>
-          {SITUATIONS.map((s) => (
-            <option key={s.slug} value={s.short}>
-              {s.short}
-            </option>
-          ))}
-          <option value="Other">Other</option>
-        </select>
-      </Field>
+          <button
+            type="submit"
+            disabled={!address.trim()}
+            className="mt-2 w-full rounded-lg bg-amber px-6 py-4 text-base font-semibold text-[#3a2a06] transition hover:bg-amber-dk disabled:opacity-50"
+          >
+            Get my cash offer →
+          </button>
+        </>
+      )}
 
-      <button
-        type="submit"
-        disabled={status === "sending"}
-        className="mt-2 w-full rounded-lg bg-amber px-6 py-4 text-base font-semibold text-[#3a2a06] transition hover:bg-amber-dk disabled:opacity-60"
-      >
-        {status === "sending" ? "Sending…" : "Request my cash offer"}
-      </button>
+      {step === 2 && (
+        <>
+          <div className={compact ? "" : "grid grid-cols-1 gap-3 sm:grid-cols-2"}>
+            <Field label="Full name">
+              <input
+                ref={nameRef}
+                name="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+                autoComplete="name"
+                placeholder="Your name"
+                className={inputCls}
+              />
+            </Field>
+            <Field label="Phone">
+              <input
+                name="phone"
+                type="tel"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                required
+                autoComplete="tel"
+                placeholder="(000) 000-0000"
+                className={inputCls}
+              />
+            </Field>
+          </div>
+
+          <button
+            type="submit"
+            disabled={status === "sending" || !name.trim() || !phone.trim()}
+            className="mt-2 w-full rounded-lg bg-amber px-6 py-4 text-base font-semibold text-[#3a2a06] transition hover:bg-amber-dk disabled:opacity-50"
+          >
+            {status === "sending" ? "Sending…" : "See my offer"}
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setStep(1)}
+            className="mt-3 w-full text-center text-sm text-ink-soft underline"
+          >
+            ← Back
+          </button>
+        </>
+      )}
 
       {status === "error" && (
         <p className="mt-3 text-center text-sm text-red-600">
-          Something went wrong. Please call us at {" "}
-          <a className="underline" href={`tel:${process.env.NEXT_PUBLIC_PHONE_E164}`}>
+          Something went wrong. Please call us at{" "}
+          
+            className="underline"
+            href={`tel:${process.env.NEXT_PUBLIC_PHONE_E164}`}
+          >
             {process.env.NEXT_PUBLIC_PHONE}
           </a>
           .
