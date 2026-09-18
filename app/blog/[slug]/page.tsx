@@ -554,6 +554,46 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "new-commission-rules-california": {
+    tag: "Seller Tips",
+    date: "September 17, 2026",
+    readTime: "6 min read",
+    title: "The New Commission Rules: What California Home Sellers Need to Know in 2026",
+    intro:
+      "For decades, selling a home in California meant handing over 5 to 6 percent of the sale price in commission, split between your listing agent and the buyer's agent, treated as a fixed cost. That is no longer how it works. Between the 2024 national settlement and a California law that went further, the rules for who pays the buyer's agent have been rewritten.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Here is what actually changed, what it means for your bottom line, and where the savings are real versus overstated.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What actually changed</h2>
+        <p>Two things drove this. First, the National Association of Realtors settled a set of antitrust lawsuits for $418 million, and the practice changes took effect August 17, 2024. That settlement did two big things: buyer-agent compensation can no longer be advertised on the MLS, and buyers must now sign a written agreement with their agent before touring homes, one that spells out what the agent is owed and who is expected to pay it.</p>
+        <p>Second, California went further than the settlement required. Governor Newsom signed AB 2992 on September 24, 2024, effective January 1, 2025, which wrote buyer-broker representation requirements directly into state law under Civil Code Title 4.1. In California, a written buyer-broker agreement stating the compensation is now a legal requirement, not just an industry rule. The California Association of Realtors rolled out a new form for it, the Buyer Representation and Broker Compensation Agreement.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What it means for you as a seller</h2>
+        <p>The bundled 5 to 6 percent is no longer automatic. As a seller, you are no longer expected to advertise a commission to the buyer's agent, and you are not required to pay one at all. Commission was never actually set by law, it was always negotiable, but that fact is now explicit and sits at the center of the deal instead of being buried in your listing agreement.</p>
+        <p>You can still choose to offer a buyer-agent concession if you want to. The difference is that it is now negotiated in the offer or the purchase contract, not posted on the MLS for every buyer's agent to see.</p>
+        
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Where the savings are real, and where they are overstated</h2>
+        <p>Here is the honest part the headlines skip. Yes, you now have more explicit control, and in some sales that means keeping money you used to hand over automatically. But in practice, on a competitive open-market listing, most sellers still offer a buyer-agent concession, commonly around 2.5 to 3 percent, to attract buyers and avoid shrinking their pool. The California Association of Realtors' own tracking through early 2026 shows that the total compensation reaching agents has not dropped dramatically in the first year after the change.</p>
+        <p>On top of that, your listing agent's own fee still applies, now commonly quoted around 2 to 3 percent on its own. So if you list on the open market, you are very likely still paying something to both sides. The rules gave you leverage. They did not make selling free.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">One thing most sellers do not know</h2>
+        <p>There is one way to take the commission question off the table entirely: a direct sale. When you sell straight to a cash buyer, there is no listing agent and no buyer's agent involved, which means no listing commission and no buyer-agent concession on either side. The entire negotiation over who pays the buyer's agent simply disappears.</p>
+        <p>The tradeoff is honest. A direct cash sale usually comes in below what a fully marketed, top-dollar listing would fetch. But you keep the whole commission stack, skip the concessions, and close faster with far fewer costs along the way. Which path wins depends on your priorities: squeezing out the highest possible price, or speed, certainty, and paying zero agent fees.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">Not sure which path nets you more?</h4>
+          <p className="text-gray-600 text-sm mb-4">If you are weighing a traditional listing against a direct sale, we can show you both numbers side by side: what you would likely net after commissions and concessions on the open market versus a straight cash sale with no agent fees at all. Honest numbers, no obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal or financial advice. Commission rates are negotiable and vary by transaction, and real estate rules change. Confirm current requirements with a licensed California real estate professional before making decisions. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
   };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
