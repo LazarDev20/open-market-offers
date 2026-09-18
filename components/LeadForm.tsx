@@ -106,7 +106,7 @@ export default function LeadForm({
     return (
       <div className="rounded-2xl border border-line bg-white p-8 text-center shadow-xl">
         <div className="mx-auto mb-4 grid h-14 w-14 place-items-center rounded-full bg-teal/10 text-3xl text-teal">
-          ✓
+          Done
         </div>
         <h3 className="font-display text-2xl text-teal">We got it. Thank you!</h3>
         <p className="mx-auto mt-2 max-w-sm text-sm text-ink-soft">
@@ -161,7 +161,7 @@ export default function LeadForm({
             disabled={!address.trim()}
             className="mt-2 w-full rounded-lg bg-amber px-6 py-4 text-base font-semibold text-[#3a2a06] transition hover:bg-amber-dk disabled:opacity-50"
           >
-            Get my cash offer →
+            Get my cash offer
           </button>
         </>
       )}
@@ -200,7 +200,7 @@ export default function LeadForm({
             disabled={status === "sending" || !name.trim() || !phone.trim()}
             className="mt-2 w-full rounded-lg bg-amber px-6 py-4 text-base font-semibold text-[#3a2a06] transition hover:bg-amber-dk disabled:opacity-50"
           >
-            {status === "sending" ? "Sending…" : "See my offer"}
+            {status === "sending" ? "Sending..." : "See my offer"}
           </button>
 
           <button
@@ -208,7 +208,7 @@ export default function LeadForm({
             onClick={() => setStep(1)}
             className="mt-3 w-full text-center text-sm text-ink-soft underline"
           >
-            ← Back
+            Back
           </button>
         </>
       )}
@@ -226,7 +226,7 @@ export default function LeadForm({
         </p>
       )}
       <p className="mt-3 text-center text-xs text-ink-soft">
-        🔒 No obligation. We never charge fees or commissions.
+        No obligation. We never charge fees or commissions.
       </p>
     </form>
   );
