@@ -139,6 +139,16 @@ const posts = [
       "The 2024 settlement and California's own AB 2992 rewrote who pays the buyer's agent. Here is what actually changed for sellers, and where the savings are real versus overstated.",
     featured: false,
   },
+    {
+    slug: "cash-buyer-retrade-escrow",
+    tag: "Seller Tips",
+    date: "September 18, 2026",
+    readTime: "7 min read",
+    title: "The Retrade: How Some Cash Buyers Lower Their Price After You Are in Escrow, and How to Stop It",
+    excerpt:
+      "You sign a strong cash offer, then the buyer comes back with a lower number and a story about problems they 'found.' It is called retrading. Here is how it works, the warning signs, and how to protect yourself.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
