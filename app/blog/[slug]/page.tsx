@@ -594,6 +594,58 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "cash-buyer-retrade-escrow": {
+    tag: "Seller Tips",
+    date: "September 18, 2026",
+    readTime: "7 min read",
+    title: "The Retrade: How Some Cash Buyers Lower Their Price After You Are in Escrow, and How to Stop It",
+    intro:
+      "You accept a strong cash offer, sign the contract, and finally exhale. Then a week or two later the buyer comes back with a lower number and a story about problems they 'found.' This tactic has a name in the industry: retrading. It is common, it is deliberate, and it works because by the time it happens, you have already told every other buyer no.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Here is exactly how it works and how to protect yourself before you ever sign.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">How the retrade works</h2>
+        <p>A retrade is when a buyer renegotiates the price down after getting your home under contract, usually during the due diligence or inspection window. The playbook is simple. The buyer makes a strong, sometimes even high, offer to win the contract and tie up your property. Then, during their inspection period, they manufacture a reason to cut the price, pointing to repairs, market conditions, or issues they claim to have discovered. You are now stuck choosing between two bad options: accept less than you agreed to, or blow up the deal and start over.</p>
+        <p>This is not a fringe scam. It is a recognized practice. In slower markets especially, some buyers will deliberately offer more than they actually intend to pay, purely to control the property, then renegotiate down once you are committed and your other options are gone. Real estate professionals openly call a pattern of repeated price cuts after signing the mark of an unprofessional operator. And on investor forums, you can find buyers coaching each other to treat the inspection as a tool to find any excuse to lower the price, working from the assumption that no house is perfect.</p>
+        <p>To be fair, not every price change is a retrade. If an inspection turns up a genuine, major, undisclosed problem, a renegotiation can be legitimate. The retrade is the version where the discovery is manufactured, vague, or was obvious before they ever made the offer.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Why it works on sellers</h2>
+        <p>The tactic preys on your position. By the time the buyer retrades, you have declined other offers, taken your home off the market, and often made plans that depend on this sale closing: a new home, a move, a deadline. Relisting means weeks of lost time and starting from zero. Buyers who do this know that many sellers, especially motivated ones dealing with a move, financial pressure, or an inherited property, will swallow a lower price rather than absorb the delay. Your urgency is the leverage.</p>
+        
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The warning signs, before you sign</h2>
+        <p>You can spot most retrade risk in the offer itself. Watch for these.</p>
+        <p><strong className="font-medium text-gray-900">An offer well above the others.</strong> If a cash offer comes in noticeably higher than the others you received, sometimes that is real, and sometimes it is bait to win the contract so they can chip it down later.</p>
+        <p><strong className="font-medium text-gray-900">Tiny or no earnest money.</strong> A serious cash buyer puts down a real deposit, commonly 1 to 3 percent of the price. Predatory operators offer as little as a few hundred dollars, because walking away later costs them almost nothing.</p>
+        <p><strong className="font-medium text-gray-900">A long due diligence window.</strong> A 30-day inspection period, or language that makes the sale subject to an inspection or contractor walkthrough after you have already signed, gives them room to work. Honest buyers do their homework before they make the offer, not after.</p>
+        <p><strong className="font-medium text-gray-900">Vague escape clauses.</strong> Terms like subject to partner approval or subject to investment committee approval are trap doors that let the buyer exit or renegotiate for almost any reason.</p>
+        <p><strong className="font-medium text-gray-900">The phrase and/or assigns.</strong> Next to the buyer name, this often means they are a wholesaler who intends to flip your contract to a third party, not the actual buyer. If they cannot find an end buyer at their price, they will come back to retrade you or simply disappear.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">How to protect yourself</h2>
+        <p>You have more control than you think. Build these into the deal.</p>
+        <p><strong className="font-medium text-gray-900">Require real earnest money</strong> held by a neutral title or escrow company, never handed directly to the buyer. One to three percent is normal.</p>
+        <p><strong className="font-medium text-gray-900">Make the earnest money non-refundable after a short inspection deadline,</strong> so it goes hard. This is the single most effective deterrent. A buyer with several thousand dollars they will lose by walking away is far less likely to retrade than one with a few hundred at stake. It puts their skin in the game, not just yours.</p>
+        <p><strong className="font-medium text-gray-900">Keep the inspection window short,</strong> in the range of 7 to 14 days, not 30. The longer the window, the more room they have to shop your contract or invent a reason to cut the price.</p>
+        <p><strong className="font-medium text-gray-900">Minimize contingencies</strong> and get the price and terms in writing, and be wary of any open-ended subject to language.</p>
+        <p><strong className="font-medium text-gray-900">Ask two direct questions:</strong> can you show proof of funds, and are you the actual buyer or are you assigning this contract to someone else? An honest buyer answers both without hesitation.</p>
+        <p>And if a buyer does retrade you with no legitimate new reason, be willing to say no. Experienced sellers refuse to reward the tactic, and a buyer who bid honestly in the first place will not need to.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">One thing most sellers do not know</h2>
+        <p>A cash offer is only as good as the buyer ability and intention to actually close on it. The number written on the offer means nothing if the plan all along was to chip it down later. This is why the earnest money terms matter more than the headline price. A slightly lower offer backed by a large, non-refundable deposit from the real buyer is worth more than a higher offer with a token deposit from someone who may be shopping your contract around. Read the deposit and the deadlines before you fall in love with the price.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">Have an offer you are not sure about?</h4>
+          <p className="text-gray-600 text-sm mb-4">When we make a cash offer, the number we put in writing is the number we close on. We do our diligence before we make the offer, we put real earnest money into escrow, and we are the actual buyer, not a middleman flipping your contract. If you have an offer in hand and want a straight second opinion on whether its terms protect you, we are glad to look it over. No obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. Contract terms, earnest money rules, and your options if a buyer breaches vary by situation and by state. Have your purchase agreement reviewed by a licensed California real estate attorney before signing. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
   };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
