@@ -163,8 +163,9 @@ const posts = [
 
 export default function BlogPage() {
   const featured = posts.find((p) => p.featured);
-  const rest = posts.filter((p) => !p.featured);
-
+  const rest = posts
+    .filter((p) => !p.featured)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   return (
     <div className="min-h-screen bg-white">
       <div className="bg-[#0D5A58] py-16 px-6 text-center">
