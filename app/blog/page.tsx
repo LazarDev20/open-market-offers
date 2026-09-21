@@ -159,6 +159,16 @@ const posts = [
       "Cracked foundation, bad roof, fire or water damage you cannot afford to fix? You can still sell. Here is what California requires you to disclose, what it does to a normal sale, and your three real options.",
     featured: false,
   },
+    {
+    slug: "sell-house-tax-lien-behind-property-taxes-california",
+    tag: "Seller Tips",
+    date: "September 18, 2026",
+    readTime: "7 min read",
+    title: "Behind on Property Taxes or Selling With a Tax Lien in California: What You Need to Know in 2026",
+    excerpt:
+      "Behind on property taxes or found a lien on your home? It is usually far less of an obstacle than it feels. Here is California's five-year timeline, how liens get paid at closing, and when timing matters.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
