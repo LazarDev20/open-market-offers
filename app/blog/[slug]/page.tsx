@@ -689,6 +689,46 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "sell-house-tax-lien-behind-property-taxes-california": {
+    tag: "Seller Tips",
+    date: "September 18, 2026",
+    readTime: "7 min read",
+    title: "Behind on Property Taxes or Selling With a Tax Lien in California: What You Need to Know in 2026",
+    intro:
+      "Falling behind on property taxes, or finding out there is a lien on your home, is one of those things that feels far worse than it usually is. Most people assume a lien freezes them in place, that they cannot sell until it is gone. In the large majority of cases, that is simply not true. Here is what California law actually says, and where the real risk is if you wait too long.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Here is how unpaid property taxes work, how liens get handled when you sell, and when a slow sale becomes a real problem.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What happens when you fall behind on California property taxes</h2>
+        <p>California property taxes come in two installments. The first is delinquent after December 10, the second after April 10. Miss a deadline and the county adds a 10 percent penalty to that installment automatically. If any part of your annual bill is still unpaid when the fiscal year ends on June 30, the property becomes tax-defaulted on July 1.</p>
+        <p>Here is the part that matters, and the part sellers most often get wrong in both directions. Tax default does not mean you are about to lose your home. Under the California Revenue and Taxation Code, once residential property goes into default, you have a five-year redemption period before the county tax collector gains the power to sell it at public auction. During those five years, penalties and interest accumulate, but the home is yours, and you can pay the balance, set up an installment plan, or sell at any point. Only after five years of unpaid taxes, when the county records a Notice of Power to Sell, does the property head toward auction.</p>
+        <p>So the clock is real, but it is long. What you do not want to do is ignore it until year five, because your options narrow sharply the closer you get to that auction.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Can you sell a house that has a lien on it? Almost always, yes</h2>
+        <p>This is the question that stops most sellers cold, and the answer is more reassuring than they expect. A lien does not legally prevent you from listing your home, accepting an offer, or going into escrow. What it does is attach to the title, which means it has to be resolved before ownership can transfer to the buyer. That resolution normally happens at closing, out of your sale proceeds, and you do not pay anything out of pocket up front.</p>
+        <p>Here is the actual sequence. When you go under contract, the title company runs a title search that surfaces every recorded lien: property tax, Franchise Tax Board, IRS, HOA, judgment, or contractor. Each lienholder is sent a payoff demand for the exact balance owed. At closing, escrow pays those liens directly from your proceeds, in priority order, before you receive anything. The lienholders file releases, the buyer gets clear title, and you walk away with whatever remains after the payoffs and costs. Title and escrow companies handle this every single day. You do not have to contact the IRS or the county yourself, and you do not need to clear the lien before you sell.</p>
+        
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">When it takes more work: not enough equity</h2>
+        <p>The one scenario that requires real effort is when your sale price will not cover all the liens in full. Even then, you are not stuck. The IRS and California's Franchise Tax Board both have documented programs for exactly this situation. A lien discharge can remove the lien from the property so the sale can close, even though the underlying debt stays with you. A subordination can move a lien behind another so a deal can proceed. And many private lienholders, judgment creditors and contractors especially, will accept a reduced payoff to settle quickly rather than wait years to collect. These take coordination and time, which is the main reason low-equity, lien-heavy sales move slowly on the open market.</p>
+        <p>One timing note worth knowing: government liens are not fast. A California FTB lien payoff is requested through the state's eDemand system and generally needs to be started well ahead of closing, and federal IRS releases can take weeks. On a tight timeline, getting those payoff requests started the day escrow opens is what keeps a close on track.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">One thing most sellers do not know</h2>
+        <p>You do not have to pay off a single lien, or a single dollar of back taxes, before you sell. It all gets handled through escrow out of the proceeds, and the buyer takes clean title on the other side. The reason this matters for a cash sale is timing. A traditional listing can take months, and if you are deep into that five-year window, or the liens are complicated enough to spook a financed buyer or their lender, months you may not have. A cash buyer who can close quickly can satisfy the tax debt before the auction clock runs out and take on the coordination of clearing the liens, which is often the difference between resolving this on your terms and losing the equity you have left.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">Behind on taxes or dealing with a lien?</h4>
+          <p className="text-gray-600 text-sm mb-4">If you are behind on your property taxes, or you have a lien on your Southern California home and are not sure where you stand, we can walk you through what selling would actually net you after the payoffs, honestly, with real numbers. Often it is far less of an obstacle than it feels like. No obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal or tax advice. California tax and lien rules are detailed and fact-specific, and timelines and relief programs depend on your exact situation. Consult a licensed California real estate attorney or tax professional, or your county tax collector, before making decisions. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
   };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
