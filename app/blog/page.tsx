@@ -172,9 +172,12 @@ const posts = [
 ];
 
 export default function BlogPage() {
-    const sorted = [...posts].sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+      const sorted = posts
+    .map((p, i) => ({ ...p, _i: i }))
+    .sort((a, b) => {
+      const d = new Date(b.date).getTime() - new Date(a.date).getTime();
+      return d !== 0 ? d : b._i - a._i;
+    });
   const featured = sorted[0];
   const rest = sorted.slice(1);
   return (
