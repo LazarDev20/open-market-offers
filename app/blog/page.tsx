@@ -149,6 +149,16 @@ const posts = [
       "You sign a strong cash offer, then the buyer comes back with a lower number and a story about problems they 'found.' It is called retrading. Here is how it works, the warning signs, and how to protect yourself.",
     featured: false,
   },
+    {
+    slug: "sell-house-needs-major-repairs-socal",
+    tag: "Seller Tips",
+    date: "September 18, 2026",
+    readTime: "6 min read",
+    title: "Selling a House That Needs Major Repairs in Southern California: What You Need to Know in 2026",
+    excerpt:
+      "Cracked foundation, bad roof, fire or water damage you cannot afford to fix? You can still sell. Here is what California requires you to disclose, what it does to a normal sale, and your three real options.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
