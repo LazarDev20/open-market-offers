@@ -646,6 +646,49 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "sell-house-needs-major-repairs-socal": {
+    tag: "Seller Tips",
+    date: "September 18, 2026",
+    readTime: "6 min read",
+    title: "Selling a House That Needs Major Repairs in Southern California: What You Need to Know in 2026",
+    intro:
+      "A cracked foundation, a roof at the end of its life, fire or water damage, or old electrical and plumbing you cannot afford to update. Whatever it is, you already know the repair is bigger than your budget, and now you are wondering whether you can even sell the house in that condition. The short answer is yes, but there are things you have to get right, starting with what California requires you to tell the buyer.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>Understanding those disclosure rules is what protects you from a lawsuit later. Here is what you need to know.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Selling as-is does not mean you can stay silent</h2>
+        <p>This is the single biggest misunderstanding sellers have. In California, as-is only means you are not agreeing to pay for repairs or give credits. It does not release you from your duty to disclose. Under California Civil Code sections 1102 through 1102.14, sellers of one-to-four unit homes must complete a written Transfer Disclosure Statement describing every known material defect, and buyers cannot waive that right, even in an as-is sale.</p>
+        <p>A material defect is anything a reasonable buyer would want to know before deciding to buy or what to pay. For a home that needs work, that squarely includes foundation movement, roof leaks, water intrusion, mold, drainage problems, and defects in major systems like electrical, plumbing, and HVAC. If you know about it, it goes on the form.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Disclose it even if you already fixed it</h2>
+        <p>Sellers get tripped up here constantly. You have to disclose known problems even if the damage was repaired and is no longer visible. Past water intrusion, a leak you patched, a foundation that was shored up, all of it belongs on your disclosures, with dates and any contractor records you have. The legal test is not whether the problem is fixed. It is whether a buyer would consider the history important to their decision.</p>
+        <p>There is a reason to take this seriously beyond doing the right thing. Court filings show that a large share of post-sale disclosure lawsuits trace back to exactly three things: unpermitted work, prior water or mold history, and known defects in major systems that the seller left off the form. A defect you disclose creates almost no liability. The same defect discovered after closing, undisclosed, is how sellers end up in court paying far more than the repair ever would have cost. When in doubt, write it down.</p>
+        
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What needing repairs does to a normal sale</h2>
+        <p>Beyond disclosure, major repairs change how the sale itself goes. A traditional buyer using a mortgage runs into two walls. Their lender may refuse to fund a loan on a home with serious structural, roof, or safety issues until the work is done, which you would be expected to pay for before closing. And even when financing is possible, buyers who see the disclosures and the inspection report will ask for a lower price or repair credits, or simply walk. This is why homes needing significant work often sit, fall out of escrow, or sell for less than the sticker price after all the back and forth.</p>
+        <p>A quick word on insurance, since fire and water damage often involve a claim. Whether it makes more sense to use claim proceeds to repair the home or to sell it in its current condition depends on your situation, the size of the claim, and your timeline. It is worth thinking through before you commit either way, and worth asking a professional about.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Your three real options</h2>
+        <p>Broadly, you have three paths. You can make the repairs and sell on the open market, which can bring the highest price but requires money you may not have, plus time and effort. You can list the home as-is and let the market price in the work, which avoids the repair bill but usually means a lower offer, a longer wait, and buyers who may still try to renegotiate. Or you can sell directly to a cash buyer who purchases the home in its current condition, which is faster and removes the financing and repair hurdles entirely, in exchange for a price that reflects the work the buyer is taking on.</p>
+        <p>None of these is automatically the right answer. The best choice depends on how much the repairs would cost, how much time you have, and whether your priority is the highest possible number or simply being done.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">One thing most sellers do not know</h2>
+        <p>You do not have to fix anything, or even clean up, to sell a house that needs major work. A cash buyer who purchases as-is takes the property in its current condition, which means the repair you cannot afford stops being your problem. That does not remove your duty to disclose what you know, honest disclosures protect you no matter who you sell to, but it does remove the pressure to come up with repair money you do not have just to get the house sold.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">Have a house that needs more work than you can take on?</h4>
+          <p className="text-gray-600 text-sm mb-4">If you own a Southern California home that needs major repairs, we can talk through what an as-is cash sale would look like compared to fixing it up or listing it. We give you honest numbers and let you decide. No obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal advice. California disclosure law is detailed and fact-specific, and your obligations depend on your exact situation. Consult a licensed California real estate attorney about your disclosures before selling. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
   };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
