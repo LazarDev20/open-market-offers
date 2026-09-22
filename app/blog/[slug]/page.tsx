@@ -729,6 +729,57 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "sell-fire-damaged-home-socal": {
+    tag: "Seller Tips",
+    date: "September 22, 2026",
+    readTime: "7 min read",
+    title: "How to Sell a Fire-Damaged Home in Southern California",
+    intro:
+      "The 2025 LA fires damaged or destroyed more than 16,000 structures. Many of those property owners are now facing a decision most people are completely unprepared for. Here is what California law requires, what your options are, and how to think through the financial decision.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>The 2025 Los Angeles fires destroyed or damaged more than 16,000 structures across LA County. Many of those property owners are now facing a decision that most people are completely unprepared for: what do you do with a home that has been partially or fully damaged by fire, and how do you sell it?</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What California law requires you to disclose</h2>
+        <p>California Civil Code Section 1102 requires disclosure of all known material facts that affect the value or desirability of a property. Fire damage is a material fact. Prior fire history is a material fact. Smoke remediation work, structural engineering reports, and open insurance claims all qualify for disclosure on the Transfer Disclosure Statement and the Seller Property Questionnaire.</p>
+        <p><strong className="font-medium text-gray-900">Fire damage must be disclosed even if fully repaired.</strong> California law does not allow you to stay silent about prior fire damage just because the work is done. The repair history, the cause, the extent of the original damage, and who performed the remediation all belong in your disclosure package. Withholding material facts post-close can trigger liability under California Civil Code Section 1102.13.</p>
+        <p><strong className="font-medium text-gray-900">A Natural Hazard Disclosure report is required separately</strong> if the property is located in a designated Fire Hazard Severity Zone. After the 2025 fires, the state redrew its fire hazard maps and significantly expanded the zones that require this disclosure. Properties in communities that were not previously in a designated zone may now be. Confirm your property's current hazard zone status at the CAL FIRE website before listing.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What fire damage does to your buyer pool</h2>
+        <p>Conventional lenders will not finance a home that is not habitable and structurally sound. FHA, Fannie Mae, and Freddie Mac guidelines all require an appraiser to certify the home as safe, sound, and structurally sufficient before a loan can fund. A fire-damaged home fails that test until documented repairs are complete and a new appraisal is issued.</p>
+        <p>That means your buyer pool, from the day the fire occurs until full documented repairs are completed, consists almost entirely of cash buyers, real estate investors, and builders. No retail financing competition means less price pressure pushing offers upward. Fire-damaged California properties are selling at 40 to 70 percent of pre-fire value in 2026, reflecting the absence of conventionally financed buyers in the market.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The insurance question and why it controls your timeline</h2>
+        <p>An open fire insurance claim controls your sale timeline in ways most sellers do not anticipate. If you have an active claim, your mortgage lender is typically a named party on the insurance payout. That means the lender must sign off on how the proceeds are used, and they have a legal interest in ensuring the money goes toward repairing the collateral for their loan.</p>
+        <p>You have two basic options with the insurance proceeds. You can settle the claim, receive the payout, and then sell the property as-is at a price that reflects the damaged condition. Or you can sign over the insurance proceeds to the buyer as part of the transaction. Cash buyers experienced with fire-damaged inventory are familiar with both structures.</p>
+        <p>Do not sell the property before talking to a California attorney who represents policyholders if your claim has not yet settled. Insurance companies in California are not required to honor policy proceeds once you have transferred ownership without proper assignment language in the contract. Getting this wrong can cost you the entire insurance payout.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The rebuild math most sellers do not run</h2>
+        <p>California rebuild costs in 2026 run between $350 and $900 per square foot depending on location, materials, permitting jurisdiction, and contractor availability. Most Southern California homeowners with fire damage are underinsured by 20 to 40 percent relative to actual current rebuild costs.</p>
+        <p>A 1,800 square foot home destroyed by fire in Los Angeles County would cost between $630,000 and $1.6 million to rebuild from the ground up in 2026. Rebuild permitting in California after a major fire event adds 12 to 24 months before construction can begin in many jurisdictions. That is 12 to 24 months of mortgage payments, insurance, property taxes, and temporary housing costs before the rebuilt home is ready to sell. When you stack actual costs against a cash sale of the damaged property today, the cash path frequently produces a better net present value outcome than rebuilding and selling later.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Your four options as a seller</h2>
+        <p><strong className="font-medium text-gray-900">Sell as-is to a cash buyer.</strong> You sell the property in its current damaged condition. The buyer accepts all repair responsibility. This is the fastest path, typically closing in 7 to 21 days, with no out-of-pocket repair costs on your end. Offers reflect the buyer's estimated repair costs, holding costs, and margin, which is why as-is prices run 30 to 60 percent below pre-fire value in most SoCal markets.</p>
+        <p><strong className="font-medium text-gray-900">Wait for insurance settlement and sell as-is.</strong> You let the claim run its course, receive your payout, and then sell the damaged property to a cash buyer. You keep the insurance proceeds and sell at the as-is price. This produces two separate pools of money but requires waiting on the claim, which can take months to over a year for complex losses.</p>
+        <p><strong className="font-medium text-gray-900">Repair and sell on the open market.</strong> You use insurance proceeds and out-of-pocket funds to complete repairs, obtain a final inspection, and list the home for conventionally financed buyers. This path takes the longest and carries the most execution risk, but it reopens your buyer pool to the full market. Even after full repair, buyers will know about the fire history through mandatory disclosure, and some will discount their offers accordingly.</p>
+        <p><strong className="font-medium text-gray-900">Sell the lot.</strong> If the structure is a total loss, the land itself still has value. In desirable Southern California neighborhoods, lot value can represent 60 to 80 percent of the pre-fire home value. Some sellers find that a lot sale combined with insurance proceeds produces a better outcome than attempting to rebuild or sell a severely damaged structure.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What to do first</h2>
+        <p>Before you contact any buyer or agent, take these steps. Get a structural engineering assessment to document the extent of the damage. This protects you legally, gives buyers accurate information, and establishes the baseline for your insurance claim. Pull your insurance policy and read the assignment of benefits provisions carefully. Understand what your lender's rights are regarding the proceeds. Consult a California policyholder attorney if you have any uncertainty about how the sale will affect your claim. Review your property's current fire hazard zone designation on the CAL FIRE website before you prepare any disclosures.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">We buy Southern California homes with fire damage regularly.</h4>
+          <p className="text-gray-600 text-sm mb-4">Including partial losses, total losses, and properties with open insurance claims. We can help you evaluate what selling as-is after your claim settles would produce versus selling today. We give you both numbers and let you decide. No obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call {SITE.phone}</a>
+            <a href="/" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a free home value</a>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or insurance advice. California real estate and insurance law are complex and fact-specific. Consult a licensed California real estate attorney and a California-licensed public adjuster before making any decisions about selling a fire-damaged property. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
   };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
