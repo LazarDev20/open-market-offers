@@ -169,6 +169,16 @@ const posts = [
       "Behind on property taxes or found a lien on your home? It is usually far less of an obstacle than it feels. Here is California's five-year timeline, how liens get paid at closing, and when timing matters.",
     featured: false,
   },
+    {
+    slug: "sell-fire-damaged-home-socal",
+    tag: "Seller Tips",
+    date: "September 22, 2026",
+    readTime: "7 min read",
+    title: "How to Sell a Fire-Damaged Home in Southern California",
+    excerpt:
+      "Fire damage eliminates most of your conventional buyer pool immediately. Here is what California law requires you to disclose, how the insurance question controls your timeline, and your four real options as a seller.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
