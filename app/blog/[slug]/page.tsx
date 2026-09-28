@@ -856,6 +856,70 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "house-not-selling-orange-county-expired-listing": {
+    tag: "Seller Tips",
+    date: "September 28, 2026",
+    readTime: "7 min read",
+    title: "Orange County House Didn't Sell? What to Do After Your Listing Expires",
+    intro:
+      "Orange County listing expired or sitting too long? Here is why homes are sitting longer this fall, what to check before you relist, and your real options.",
+    content: (
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
+        <p>If your Orange County home just came off the market without selling, you are not alone, and it does not mean the house is unsellable. It usually means something about the price, the condition, or the presentation did not match what buyers were willing to do this season.</p>
+        <p>No pressure, no pitch. Here is what the Orange County market is actually doing right now, what your old listing agreement may still control, and your real options from here.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Why Orange County homes are sitting longer this fall</h2>
+        <p>The homes that sell in Orange County are still selling fast. In August 2026, the median Orange County single-family home sold in 27 days at a median price of $1,452,500, according to the California Association of Realtors.</p>
+        <p>The homes that do not sell are sitting longer. By the end of August, the median active Orange County listing had been on the market 45 days, the highest level of the year. The median Orange County listing price also dropped from $1,395,000 in May to $1,299,000 in August, according to Realtor.com data.</p>
+        <p>Mortgage rates are part of the story. Freddie Mac&apos;s average 30-year fixed rate was 6.37% in early April and 6.95% by September 17. Higher rates shrink what buyers can afford, and buyers respond by passing on homes that feel overpriced.</p>
+        <p>Put simply, well-priced homes still go quickly. Homes priced above the market sit, and the longer they sit, the more buyers assume something is wrong.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Why a home usually does not sell</h2>
+        <p>It almost always comes down to one of four things.</p>
+        <p><strong className="font-medium text-gray-900">Price.</strong> The home was priced against other active listings or a hoped-for number instead of recent closed sales in the neighborhood.</p>
+        <p><strong className="font-medium text-gray-900">Condition.</strong> Deferred repairs, dated finishes, or inspection issues that buyers do not want to take on at today&apos;s rates.</p>
+        <p><strong className="font-medium text-gray-900">Presentation.</strong> Weak photos, no floor plan, or listing details that did not show the home at its best.</p>
+        <p><strong className="font-medium text-gray-900">Access.</strong> Limited showing windows, tenants in place, or a home that was hard to see on short notice.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">First, check how your listing ended</h2>
+        <p>Before you do anything else, confirm your listing status. An expired listing means the agreement ran out. A withdrawn listing may only mean the home was taken off the MLS while the listing agreement is still in effect. A canceled listing means you and the brokerage agreed in writing to end it.</p>
+        <p>If your listing agreement is still active, talk to your current agent first. Signing with someone else or selling on your own while it is active can leave you owing a commission.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">The clause in your old listing agreement that can still cost you</h2>
+        <p>Most California listing agreements, including the standard Residential Listing Agreement from the California Association of Realtors, include a safety clause, sometimes called a protection or continuation period. It can require you to pay your former agent&apos;s commission if you sell to certain buyers within a set number of days after the listing ends.</p>
+        <p>It does not cover everyone who saw the listing online. It covers buyers who physically entered and were shown the property, or who submitted a signed written offer, and your agent must give you a written list of those buyers before the listing period expires.</p>
+        <p>Ask your former agent for that list, check the number of days in your agreement, and keep both handy before you talk to any buyer.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">Not sure what to do next?</h4>
+          <p className="text-gray-600 text-sm mb-4">We can show you a cash offer and an estimated relisting net side by side, so you can compare real numbers before you sign anything new.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#0a4846] transition-colors">Call (714)916-2720</a>
+            <a href="/#quote" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-[#EBF4F4] transition-colors">Get a cash offer</a>
+          </div>
+        </div>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Your three real options</h2>
+        <p><strong className="font-medium text-gray-900">Relist with a new strategy.</strong> Price to recent closed sales, fix the issues that came up in showings or inspections, and refresh the photos. If you want to relist through our partner, listing services are provided by Nathan Bernal, Condor Real Estate, DRE# 01408342.</p>
+        <p><strong className="font-medium text-gray-900">Sell as-is for cash.</strong> No repairs, no more showings, and a closing date you choose. Compare what you actually walk away with, not just the headline price. <a href="/blog/fair-price-home" className="text-[#0D5A58] underline">How to know if you are getting a fair price.</a></p>
+        <p><strong className="font-medium text-gray-900">Take it off the market and wait.</strong> If you do not need to sell, waiting is an option, but the mortgage, property taxes, insurance, and upkeep keep running every month. Know your monthly carrying cost before you decide.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What to change if you relist</h2>
+        <p><strong className="font-medium text-gray-900">Price to what sold, not what is listed.</strong> Anchor your price to homes like yours that closed in the last three to six months. Active listings only tell you what other sellers hope to get.</p>
+        <p><strong className="font-medium text-gray-900">Fix what buyers flagged.</strong> If showings or inspections kept turning up the same issue, fix it or price for it. Buyers at today&apos;s rates have little room left for surprise repairs.</p>
+        <p><strong className="font-medium text-gray-900">Know what you will pay.</strong> Who pays the buyer&apos;s agent is now negotiable. <a href="/blog/new-commission-rules-california" className="text-[#0D5A58] underline">Read what changed in the commission rules.</a></p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Frequently asked questions</h2>
+        <p><strong className="font-medium text-gray-900">What happens when a listing expires in California?</strong><br />The listing agreement ends and the home comes off the market. You are free to relist with any brokerage or sell another way, but a safety clause in your old agreement may still cover certain buyers for a set number of days.</p>
+        <p><strong className="font-medium text-gray-900">What is the difference between an expired and a withdrawn listing?</strong><br />An expired listing has ended. A withdrawn listing is off the market, but the listing agreement may still be in effect. Confirm which one applies before you sign anything new.</p>
+        <p><strong className="font-medium text-gray-900">Do I owe my old agent a commission if I sell after my listing expires?</strong><br />Possibly. It depends on whether your agreement has a safety clause, whether the buyer is on the written list your agent gave you before the listing ended, and whether you sign with that buyer within the protection period. Read your agreement or ask a real estate attorney.</p>
+        <p><strong className="font-medium text-gray-900">How long does it take to sell a house in Orange County right now?</strong><br />Homes that sold in August 2026 had a median of 27 days on market. Active listings that had not sold were sitting a median of 45 days by the end of August.</p>
+        <p><strong className="font-medium text-gray-900">Can I sell my Orange County house as-is?</strong><br />Yes. You can sell to a cash buyer with no repairs, or list it as-is and price for its condition. California disclosure rules still apply either way. <a href="/blog/sell-house-needs-major-repairs-socal" className="text-[#0D5A58] underline">Read our guide to selling a house that needs major repairs.</a></p>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. Please consult a licensed California real estate attorney regarding your specific situation. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
   };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
