@@ -780,6 +780,81 @@ const articles: Record<string, {
       </div>
     ),
   },
+    "sell-inherited-house-without-probate-riverside-san-bernardino": {
+    title: "Inherited a House in Riverside or San Bernardino County? The $750,000 Rule That Can Skip Full Probate",
+    intro: "Inherited a home in Riverside or San Bernardino County? If it is worth $750,000 or less, you may not need full probate. Here is how it works and your options.",
+    category: "Inherited Homes",
+    date: "September 28, 2026",
+    readTime: "7 min read",
+    content: (
+      <div>
+        <p>Most families assume an inherited house has to go through a full California probate case before anyone can sell it. For years, that was true for almost every home. For many families today, it is not.</p>
+        <p>A 2025 change to the Probate Code created a shorter court process for a parent&apos;s home worth $750,000 or less. In Riverside and San Bernardino counties, where the typical home sells for well under that number, this can save a family months of waiting and thousands in costs.</p>
+        <p>No pressure, no pitch. Here is how the rule works, who it fits, what can go wrong, and your real options once you have the court order.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">What changed in California probate law</h2>
+        <p>Assembly Bill 2016 changed Probate Code section 13151. If a parent dies leaving a home that was their primary residence in California, and the home&apos;s gross value is $750,000 or less, the heirs can file a short court petition instead of opening a full probate case. They must wait at least 40 days after the death to file.</p>
+        <p>The old limit for this petition was $184,500, so most Southern California homes never qualified. The new limit applies when the owner died on or after April 1, 2025, and the state&apos;s official value chart says it will next be adjusted on April 1, 2028.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Why this matters more in the Inland Empire</h2>
+        <p>The $750,000 line lands very differently depending on where the house is. In August 2026, the median price of an existing single-family home was $632,990 in Riverside County and $522,370 in San Bernardino County, according to the California Association of Realtors. In Orange County, it was $1,452,500.</p>
+        <p>In other words, the typical Inland Empire home falls under the limit, and the typical Orange County home is nearly double it. A median is only a midpoint, though. Higher-priced neighborhoods in both counties can land above the line, and the only number the court uses is the official appraisal described below.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Does your inherited home qualify?</h2>
+        <p>Every one of these has to be true:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li><strong>It was your parent&apos;s primary residence in California.</strong> Rentals and vacation homes do not qualify. The law also says the home does not have to be where your parent lived at the time of death, which matters if they had moved into assisted living or a relative&apos;s home.</li>
+          <li><strong>The gross value is $750,000 or less.</strong> The mortgage is not subtracted. A $780,000 home with a $300,000 loan does not qualify.</li>
+          <li><strong>Your parent died on or after April 1, 2025,</strong> and at least 40 days have passed.</li>
+          <li><strong>No full probate case is open,</strong> unless the court-appointed personal representative agrees in writing.</li>
+          <li><strong>Every heir is on board.</strong> Riverside Superior Court&apos;s own guide says all legal heirs must sign the petition.</li>
+        </ul>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">How the petition works in Riverside County</h2>
+        <p>Riverside Superior Court publishes its own step-by-step guide. In short:</p>
+        <p><strong>Get the official appraisal first.</strong> The value must come from a court-appointed probate referee, not a real estate agent or an online estimate.</p>
+        <p><strong>File the petition and attachments.</strong> Riverside requires a certified death certificate, a copy of the grant deed, a copy of the will if there is one, and the referee&apos;s appraisal. If there is a will, the court says the original must be filed within 30 days of the death.</p>
+        <p><strong>Mail notice to the family and wait for the hearing.</strong> Court examiners review each file about a month before the scheduled hearing and flag anything that needs to be fixed.</p>
+        <p><strong>Record the order.</strong> After the hearing, you take a certified copy of the court order to the Riverside County Recorder&apos;s Office. That recorded order is what allows the heirs to sell.</p>
+        <p>Riverside assigns probate filings to its Western, Mid-County, or Desert region based on where your parent lived. San Bernardino County uses the same statewide forms, but check with its probate division or self-help center for local requirements before you file.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">How long does it take?</h2>
+        <p>Full probate in California commonly takes 9 to 12 months or longer. The primary residence petition usually takes a few months, mostly driven by the 40-day wait, the appraisal, and the court&apos;s hearing calendar.</p>
+
+        <div className="bg-[#EBF4F4] border-l-4 border-[#0D5A58] rounded-xl p-6 my-8">
+          <h4 className="font-display text-xl text-[#0D5A58] mb-2">You don&apos;t have to figure this out alone.</h4>
+          <p className="text-gray-600 text-sm mb-4">While the court process moves forward, we can show you a cash number and an estimated listing number side by side, so the whole family can decide with real numbers and zero obligation.</p>
+          <div className="flex gap-3 flex-wrap">
+            <a href={`tel:${SITE.phoneE164}`} className="bg-[#0D5A58] text-white text-sm font-medium px-5 py-2.5 rounded-lg">Call (714)916-2720</a>
+            <a href="/sell/inherited-house" className="border border-[#0D5A58] text-[#0D5A58] text-sm font-medium px-5 py-2.5 rounded-lg">Get a free home value</a>
+          </div>
+        </div>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Three things that catch families off guard</h2>
+        <p><strong>One heir can hold everything up.</strong> Every person who inherits a share must either join the petition or formally give up their share. If one sibling refuses, the family may be back to full probate or a court-ordered sale.</p>
+        <p><strong>You can become responsible for your parent&apos;s debts.</strong> Heirs who use this petition can become personally responsible for the decedent&apos;s unsecured debts, like credit cards and medical bills, up to the value of their share of the home&apos;s equity. Ask an estate attorney about this before you file.</p>
+        <p><strong>The house keeps costing money.</strong> The mortgage, insurance, utilities, and property taxes do not pause while you wait for a hearing. If no heir moves in, the home will likely be reassessed for property taxes under Prop 19. Heirs who do move in may qualify for an exclusion of up to $1,044,586 for transfers through February 15, 2027. <a href="/blog/prop-19-inherited-home-california" className="text-[#0D5A58] underline">Read our full Prop 19 guide.</a></p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Can you sell the house before the court order?</h2>
+        <p>Not until the order is recorded and every heir who received a share signs the sale documents. What you can do now is get organized: order the referee appraisal, gather the death certificate and deed, and get real numbers on what the home is worth as-is versus after repairs.</p>
+        <p>Be careful with any buyer who pushes your family to sign a purchase contract before you have legal authority to sell. <a href="/blog/cash-buyer-retrade-escrow" className="text-[#0D5A58] underline">Here is how retrading works and how to stop it.</a></p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Your three real options once the order is recorded</h2>
+        <p><strong>Sell for cash, as-is.</strong> No repairs, no cleanout, no showings, and a closing date you choose. This works well when heirs live in different cities, the home needs work, or the family wants a clean, simple split.</p>
+        <p><strong>List on the open market.</strong> Listing can bring a higher price, but it usually means repairs, cleaning out a lifetime of belongings, showings, and more time. Always compare what you actually walk away with, not just the sale price. <a href="/blog/fair-price-home" className="text-[#0D5A58] underline">How to know if you are getting a fair price.</a></p>
+        <p><strong>One heir keeps the house.</strong> One sibling can buy out the others, often with a new loan, or move in and look into the Prop 19 exclusion. Talk to a CPA before choosing this path.</p>
+
+        <h2 className="font-display text-2xl font-normal text-gray-900 mt-10 mb-2">Frequently asked questions</h2>
+        <p><strong>Can I sell my deceased parent&apos;s house without probate in California?</strong><br />Often, yes. If the home was their primary residence, is appraised at $750,000 or less, and they died on or after April 1, 2025, the heirs may be able to use a Petition to Determine Succession to Primary Residence (form DE-310) instead of full probate. Homes held in a living trust usually avoid probate entirely.</p>
+        <p><strong>What is the California probate limit in 2026?</strong><br />For a primary residence, the limit is $750,000 in gross value. For personal property collected by affidavit, the limit is $208,850 for deaths on or after April 1, 2025.</p>
+        <p><strong>Does the mortgage count against the $750,000 limit?</strong><br />No. The court looks at the full appraised value of the home, not the equity.</p>
+        <p><strong>Do all siblings have to agree?</strong><br />Every heir must either join the petition or formally give up their share. If one refuses, you will likely need full probate or another court process.</p>
+        <p><strong>Is the petition cheaper than full probate?</strong><br />Generally yes, because it skips most of the steps of a full estate administration. There is still a court filing fee, a referee appraisal fee, and attorney fees if you hire one. A fee waiver is available for families who qualify.</p>
+
+        <p className="text-xs text-gray-400 mt-10 italic">This article is for informational purposes only and does not constitute legal, tax, or financial advice. Please consult a licensed California estate attorney and CPA regarding your specific situation. Open Market Offers operates under a licensed California real estate agent.</p>
+      </div>
+    ),
+  },
   };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
