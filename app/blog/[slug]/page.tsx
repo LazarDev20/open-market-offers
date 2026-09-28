@@ -780,14 +780,15 @@ const articles: Record<string, {
       </div>
     ),
   },
-    "sell-inherited-house-without-probate-riverside-san-bernardino": {
-    title: "Inherited a House in Riverside or San Bernardino County? The $750,000 Rule That Can Skip Full Probate",
-    intro: "Inherited a home in Riverside or San Bernardino County? If it is worth $750,000 or less, you may not need full probate. Here is how it works and your options.",
-    category: "Inherited Homes",
+     "sell-inherited-house-without-probate-riverside-san-bernardino": {
+    tag: "Inherited Homes",
     date: "September 28, 2026",
     readTime: "7 min read",
+    title: "Inherited a House in Riverside or San Bernardino County? The $750,000 Rule That Can Skip Full Probate",
+    intro:
+      "Inherited a home in Riverside or San Bernardino County? If it is worth $750,000 or less, you may not need full probate. Here is how it works and your options.",
     content: (
-      <div>
+      <div className="space-y-6 text-gray-600 leading-relaxed font-light text-[15px]">
         <p>Most families assume an inherited house has to go through a full California probate case before anyone can sell it. For years, that was true for almost every home. For many families today, it is not.</p>
         <p>A 2025 change to the Probate Code created a shorter court process for a parent&apos;s home worth $750,000 or less. In Riverside and San Bernardino counties, where the typical home sells for well under that number, this can save a family months of waiting and thousands in costs.</p>
         <p>No pressure, no pitch. Here is how the rule works, who it fits, what can go wrong, and your real options once you have the court order.</p>
