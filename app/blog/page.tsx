@@ -189,6 +189,16 @@ const posts = [
       "If your parent's home is appraised at $750,000 or less, your family may not need full probate. Here is how the court petition works, what catches heirs off guard, and your three real options.",
     featured: false,
   },
+    {
+    slug: "house-not-selling-orange-county-expired-listing",
+    tag: "Seller Tips",
+    date: "September 28, 2026",
+    readTime: "7 min read",
+    title: "Orange County House Didn't Sell? What to Do After Your Listing Expires",
+    excerpt:
+      "Homes that sell in Orange County are still going in under a month, but the rest are sitting longer. Here is what to check before you relist and your three real options.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
