@@ -179,6 +179,16 @@ const posts = [
       "Fire damage eliminates most of your conventional buyer pool immediately. Here is what California law requires you to disclose, how the insurance question controls your timeline, and your four real options as a seller.",
     featured: false,
   },
+    {
+    slug: "sell-inherited-house-without-probate-riverside-san-bernardino",
+    tag: "Inherited Homes",
+    date: "September 28, 2026",
+    readTime: "7 min read",
+    title: "Inherited a House in Riverside or San Bernardino County? The $750,000 Rule That Can Skip Full Probate",
+    excerpt:
+      "If your parent's home is appraised at $750,000 or less, your family may not need full probate. Here is how the court petition works, what catches heirs off guard, and your three real options.",
+    featured: false,
+  },
 ];
 
 export default function BlogPage() {
